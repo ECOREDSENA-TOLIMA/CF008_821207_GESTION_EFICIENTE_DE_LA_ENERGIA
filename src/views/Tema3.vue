@@ -422,6 +422,51 @@
           p En Colombia la mayoría de los equipos eléctricos residenciales funcionan a 110 VAC, por lo tanto este sería el voltaje de salida del inversor a seleccionar. El último criterio de selección es la potencia nominal en vatios del inversor, la cual se elige volviendo al cuadro de cargas realizado en el numeral b, y eligiendo los equipos de mayor potencia que pueden estar encendidos al mismo tiempo. Para nuestro ejercicio, se puede asumir que en algún momento los equipos No. 1, 3, 4 y 5 pueden estar encendidos en algún momento al mismo tiempo. La suma de las potencias de cada uno de ellos da en total 600 vatios (W). De acuerdo con lo anterior el inversor a elegir debe tener una potencia mínima de 600 W.
 
 
+    Separador
+    #t_3_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 3.5 Diseño por Simulación
+
+    p.mb-3 Actualmente existen varias herramientas software para el diseño de los sistemas fotovoltaicos. Este tipo de herramientas son muy útiles debido a la flexibilidad para realizar los cambios del entorno y que adicionalmente integran bases de datos con la información de la climatología del lugar a evaluar. También permiten incluir en la evaluación factores como el análisis de las pérdidas por sombras, inclinación de los paneles, cableado eléctrico, entre otras.
+    p.mb-4 Las más utilizadas (entre otras) en el mercado actual son las siguientes y para la gran mayoría se debe pagar una licencia para la instalación o una cuota mensual mientras se usa el programa para fines comerciales:
+    
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-4.mb-md-0
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | PVsyst.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Helioscope.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Homer Pro.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | RET Screen.
+
+    p.mb-4 A pesar de que cada programa tiene características diferentes, existen unos módulos básicos comunes a cada uno de ellos, aunque con nombres diferentes para cada caso:
+
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.tarjeta--azul.p-4(titulo="Módulo de gestión del proyecto ")
+        h4 Módulo de gestión del proyecto 
+        p Se encuentra la información básica del proyecto como el lugar de instalación, las coordenadas geográficas, el nombre del diseñador, el nombre del cliente. 
+      .tarjeta.tarjeta--azul.p-4(titulo="Módulo de condiciones del lugar")
+        h4 Módulo de condiciones del lugar
+        p En este módulo se encuentra la base de datos para condiciones ambientales como irradiación global, temperatura ambiental, datos geográficos del lugar, entre otras. Adicionalmente en este módulo se debe ingresar por parte del diseñador la información referente a obstáculos que puedan generar sombras en el arreglo de paneles solares. 
+      .tarjeta.tarjeta--azul.p-4(titulo="Módulo de diseño mecánico")
+        h4 Módulo de diseño mecánico
+        p Corresponde a los datos que genera el programa para la cantidad y ubicación óptima de los paneles solares a utilizar, teniendo en cuenta el área disponible y las pérdidas asociadas por sombreamiento e inclinación. 
+      .tarjeta.tarjeta--azul.p-4(titulo="Módulo de diseño eléctrico")
+        h4 Módulo de diseño eléctrico
+        p En este módulo se presenta la configuración o configuraciones recomendadas de cableado y equipos eléctricos para el correcto funcionamiento del sistema fotovoltaico. 
+      .tarjeta.tarjeta--azul.p-4(titulo="Módulo de análisis de producción energética")
+        h4 Módulo de análisis de producción energética
+        p Corresponde al cálculo de los flujos de energía y a la energía eléctrica total que genera el sistema fotovoltaico, incluyendo el valor de las pérdidas. La producción energética se puede dar en valores diarios, semanales, mensuales o anuales. 
+      .tarjeta.tarjeta--azul.p-4(titulo="Módulo de reportes ")
+        h4 Módulo de reportes 
+        p Este módulo permite configurar documentos a manera de informes o reportes donde se resume la información más relevante del proyecto para ser presentado a un cliente o a la dirección de una organización. En algunas ocasiones algunos programas permiten incluir un análisis económico de la inversión y la comparación entre varios proyectos diseñados por el mismo software. 
+
 
 </template>
 
