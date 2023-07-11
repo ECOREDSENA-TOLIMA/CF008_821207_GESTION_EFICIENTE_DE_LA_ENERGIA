@@ -675,6 +675,99 @@
           
     p.mb-5(data-aos="fade-down") De manera general, se considera que un instrumento de medición está correctamente calibrado cuando en todos los puntos de su rango de medida, la diferencia entre el valor real de la variable y el valor medido por el instrumento está dentro de los límites del rango de exactitud del instrumento de acuerdo con sus especificaciones. Ahora bien, ¿cómo se puede obtener el valor real de la variable si ningún medidor puede obtener el valor de la variable real? 
 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+        .tarjeta.tarjeta--gris-2.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/tema1-49.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Lo anterior se realiza utilizando unos equipos o instrumentos especiales que se encuentran en laboratorios certificados por los organismos de acreditación (en el caso de Colombia es la ONAC) los cuales tienen valores de precisión, exactitud y otras características mejores que los instrumentos a calibrar, lo cual que permiten utilizarlos como referencias válidas para comparar las medidas del medidor a calibrar. 
+
+      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+        .tarjeta.tarjeta--gris-2.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/tema1-50.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Las condiciones ambientales al interior de los laboratorios de calibración permiten que se garantice la correcta realización de las mediciones sin afectaciones externas. A los equipos utilizados como referencia para la calibración de los instrumentos de medición se les denomina como “equipo patrón primario”.
+      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+        .tarjeta.tarjeta--gris-2.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/tema1-51.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Los equipos patrones primarios suelen ser muy costosos a la hora de adquirirlos y también su mantenimiento lo debe hacer personal especializado lo cual resulta también en un valor alto de mantenimiento.
+      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+        .tarjeta.tarjeta--gris-2.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/tema1-52.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Por tal razón las industrias y demás empresas envían sus equipos de medición a estos laboratorios y pagan por el servicio de calibración. 
+      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+        .tarjeta.tarjeta--gris-2.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/tema1-53.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p El servicio de calibración también incluye el ajuste (cuando es posible) o corrección de los errores de acuerdo con la manipulación de algunos elementos que tiene internamente el instrumento para tal fin.
+
+    p.mb-4(data-aos="fade-down") A continuación, se muestran algunos equipos de calibración
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-54.svg', alt='') 
+
+    p.mb-4(data-aos="fade-down") El resultado del proceso de calibración es un certificado emitido por el laboratorio acreditado para tal fin, donde se muestran los puntos de trabajo del medidor analizado y los valores de la desviación medido.
+    p.mb-4(data-aos="fade-down") Los datos básicos que debe contener un certificado de calibración son los siguientes:
+
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down-left")
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row.justify-content-center.align-items-center(titulo="Paso 1")
+          .col-md-11.col-11.mb-4.mb-md-0
+            p Valor medido por el equipo patrón.
+        .row.justify-content-center.align-items-center(titulo="Paso 2")
+          .col-md-11.col-11.mb-4.mb-md-0
+            p Valor medido por el instrumento a calibrar.
+        .row.justify-content-center.align-items-center(titulo="Paso 3")
+          .col-md-11.col-11.mb-4.mb-md-0
+            p Diferencia entre el valor medido por el equipo patrón y el medido por el instrumento a calibrar.
+        .row.justify-content-center.align-items-center(titulo="Paso 4")
+          .col-md-11.col-11.mb-4.mb-md-0
+            p Especificación de exactitud.
+        .row.justify-content-center.align-items-center(titulo="Paso 5")
+          .col-md-11.col-11.mb-4.mb-md-0
+            p Identificación del equipo patrón utilizado.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/descargar.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small En el siguiente enlace, se encuentra el documento ejemplo de un certificado de calibración para un medidor de temperatura: 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_7_Ejemplo Certificado de Calibracion.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+
 </template>
 
 <script>
