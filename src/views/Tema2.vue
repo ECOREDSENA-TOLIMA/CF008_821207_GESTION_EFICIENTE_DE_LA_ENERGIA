@@ -274,7 +274,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/tema2-13.svg', alt='') 
 
-    p.mb-5(data-aos="fade-down-right") Las unidades de la densidad de potencia se expresan en W/m2. Si se desea conocer la densidad de energía 
+    p.mb-5(data-aos="fade-down-right") Las unidades de la densidad de potencia se expresan en W/m2. Si se desea conocer la densidad de energía. 
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
