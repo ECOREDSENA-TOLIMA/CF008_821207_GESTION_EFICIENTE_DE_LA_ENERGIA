@@ -246,6 +246,118 @@
 
     p.mb-5(data-aos="fade-down-right") Como se puede observar en la figura anterior, el valor de la irradiación global horizontal promedio anual diaria (en inglés Global Horizontal Irradiation GHI) es de 5,689 kWh/m2 día.
 
+    Separador
+    #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 2.2 Potencial Energético de la Energía Eólica
+
+    p Explorar la siguiente didáctica y conocer el potencial energético de la energía eólica. 
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right")
+        h4 Potencial Energético de la Energía Eólica
+        p De acuerdo con el IDEAM, UPME (2006), dentro de las fuentes de energía renovable que se utilizan en gran escala para la generación de electricidad, se encuentra el uso del viento para mover aerogeneradores instalados de tal forma que se pueda optimizar la velocidad y la dirección del viento para obtener la mayor cantidad de energía disponible. Esta tecnología recibe el nombre de sistemas eólicos o energía eólica, porque aprovecha la energía cinética del viento para la producción de electricidad. 
+      .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-11.png', alt='') 
+
+    p.mb-5(data-aos="fade-down-right") En la determinación del potencial eólico de una zona están determinados por la siguiente ecuación:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-12.svg', alt='') 
+
+    p.mb-5(data-aos="fade-down-right") Con el fin de normalizar los modelos para la identificación de las zonas donde existe mayor potencial para el uso de la energía eólica, se determina un concepto denominado Densidad de Potencia, definido como la división de la Producción entre el área (P/A), lo cual modifica la ecuación anterior de la siguiente manera:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-9.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-13.svg', alt='') 
+
+    p.mb-5(data-aos="fade-down-right") Las unidades de la densidad de potencia se expresan en W/m2. Si se desea conocer la densidad de energía 
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-14.png', alt='') 
+      .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right")
+        p La densidad del aire es un factor determinante en las mediciones, porque es diferente para cada sitio y algunas veces solo para casos prácticos se puede asumir con un valor de 1 Kg/m3. Debido a esta relación, pequeñas variaciones en la velocidad del viento representan grandes cambios en el contenido de energía. 
+        .cajon.color-acento-contenido.p-3
+          p En lugares donde los valores de la velocidad del viento son bajos, se obtienen menores valores de densidad de potencia, mientras que donde los valores promedio del viento son mayores, la densidad de potencia y por lo tanto la densidad de energía, crece de forma potencialmente al cubo de dicha velocidad.
+
+    p.mb-5(data-aos="fade-down-right") Por lo general, los vientos con intensidades iguales o superiores a 5 m/s equivalentes a (P/A) de 63 W/m2 proporcionan una buena alternativa para uso de energía en pequeños proyectos eólicos instalados cerca de superficie (entre 5 y 10 metros de altura). Sin embargo, para proyectos de gran envergadura como parques eólicos, se requiere hacer mediciones para alturas superiores, en donde se encuentran valores de velocidad del viento superiores, y en donde se puedan instalar aerogeneradores con alturas que permitan aprovechar al máximo las condiciones ambientales del lugar.
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right")
+        .cajon.color-acento-botones.p-3
+          p En el departamento de la Guajira se concentran los mayores promedios de vientos alisios que recibe el país durante todo el año con velocidades promedio cercanas a los 9 m/s (a 80 m de altura). Con estos valores se han realizados estudios de prefactibilidad y de acuerdo con ellos se estima un potencial energético en la zona equivalente a 18 GW eléctricos.
+      .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-15.png', alt='') 
+
+    p.mb-5(data-aos="fade-down-right") Para la determinación de la densidad de energía eólica en alguna zona específica del país, se tienen varias opciones dentro de las cuales se destacan las siguientes:
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong A. Atlas de Viento y Energía Eólica de Colombia (opción 1):]
+
+    p.mb-5(data-aos="fade-down-right") Según IDEAM, UPME. (2006) el Atlas de Viento y Energía Eólica de Colombia es una colección de mapas que muestra la distribución espacial del viento en superficie. Adicionalmente para la evaluación de la energía disponible, se muestra el valor promedio mensual y anual de la densidad de energía eólica a dos distintas alturas (20 y 50 metros), lo cual sirven como referencia para Colombia para el uso de energías alternativas, determinando las épocas del año y las zonas de Colombia donde se puede aprovechar las características del viento para dar soluciones a las necesidades energéticas de la nación.
+
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-md-12.mb-5.mb-lg-0.cajon.tarjeta--azul.p-4(data-aos="fade-right")
+        p Para ambos casos, se puede obtener la siguiente información: 
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Mapa nacional multianual de la velocidad media del viento en superficie. (página 21 del documento IDEAM, UPME. (2006)). Es un mapa donde se representa a través de una escala de colores el comportamiento del promedio anual de la velocidad media del viento en superficie.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            |  Mapa nacional mensual de la velocidad media del viento en superficie. (páginas 22 a 33 del documento IDEAM, UPME. (2006)). En total son doce mapas (uno por cada mes del año) donde se representa a través de una escala de colores el comportamiento del promedio mensual de la velocidad media del viento en superficie.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Mapa nacional multianual de la densidad de energía eólica a 20 metros de altura. (página 89 del documento IDEAM, UPME. (2006)). Es un mapa donde se representa a través de una escala de colores el comportamiento del promedio anual de la densidad de energía eólica a 20 metros de altura.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Mapa nacional mensual de la densidad de energía eólica a 20 metros de altura. (páginas 77 a 88 del documento IDEAM, UPME. (2006)).
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Mapa nacional multianual de la densidad de energía eólica a 50 metros de altura. (página 102 del documento IDEAM, UPME. (2006)). Es un mapa donde se representa a través de una escala de colores el comportamiento del promedio anual de la densidad de energía eólica a 50 metros de altura.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Mapa nacional mensual de la densidad de energía eólica a 50 metros de altura. (páginas 90 a 101 del documento IDEAM, UPME. (2006)).
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong B. Bases de datos con información satelital y climática (opción 2):]
+
+    p.mb-5(data-aos="fade-down-right") Cuando se requiere realizar una evaluación energética de forma detallada para la evaluación energética de por ejemplo un sistema eólico cercano a la superficie, generalmente se realiza la consulta de las bases de datos de organizaciones o empresas quienes han recogido y procesado la información proveniente de las estaciones meteorológicas locales de cada país y la han complementado con información proveniente de los satélites. Algunas de estas bases de datos suministran la información de forma gratuita y en otras se debe pagar por la información. 
+
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-md-12.mb-5.mb-lg-0.cajon.tarjeta--azul.p-4(data-aos="fade-right")
+        p Algunos ejemplos de bases de datos más conocidas son:
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | NASA Power (https://power.larc.nasa.gov/data-access-viewer/). Es gratuita.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Meteonorm (https://meteonorm.com/en/). Se debe pagar una suscripción.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Global Wind Atlas (https://globalwindatlas.info/ ). Es gratuita. Está diseñada también para calcular el potencial de generación con algunas torres eólicas. Provee información del viento para alturas de 10, 50, 100, 150 y 200 metros.
+
+    p.mb-4(data-aos="fade-down-right") Este tipo de bases de datos utilizan una interfaz gráfica que permite ubicar la zona donde se requiere evaluar el potencial energético del viento a través de la selección con un cursor en un mapa o a través de coordenadas geográficas. Adicionalmente permite ver de forma gráfica la información y en la mayoría de los casos permite descargar los datos en archivos planos para su manipulación y procesamiento en otras aplicaciones. 
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-12.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-16.png', alt='') 
 
 
 
