@@ -171,32 +171,156 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Medición de presión',
+      referencia:
+        'Galán, L. (2020). Cómo funciona un manómetro. Medida de la presión relativa. [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=4dXwxFJPTg8',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Medición de temperatura',
+      referencia:
+        'WIKA Group (2019). ¿Cómo funciona una termorresistencia? [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dQJpTusWJHA',
+    },
+    {
+      tema: 'Medición de temperatura',
+      referencia:
+        'WIKA Group (2019). ¿Cómo funciona un termopar? [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=1wwAQNECC9A',
+    },
+    {
+      tema: 'Medición de temperatura',
+      referencia:
+        'Ciencia UNAM. (2020).  Así funcionan los termómetros infrarrojos. [Video] YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=y-Ezb8Q5UW0',
+    },
+    {
+      tema: 'Medición de nivel',
+      referencia:
+        'WIKA Group (2019). WIKA - Medición de nivel con sensor de flotador de cadena Reed. [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ujPcgh1JDLc',
+    },
+    {
+      tema: 'Medición de nivel',
+      referencia:
+        'WIKA Group (201927). WIKA - Indicador de nivel con mirilla. [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=zlaTXjhaISg',
+    },
+    {
+      tema: 'Medición de nivel',
+      referencia:
+        'WIKA Group (2019). WIKA - Medición hidrostática de nivel con sensor de presión. [Video] YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=YaSW_SIhe4E',
+    },
+    {
+      tema: 'Medición de nivel',
+      referencia:
+        'VEGA Grieshaber KG (2020). ¿Radar vs ultrasonido - cual es la diferencia entre los dos principios de medición? [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Rq_EPoKHmgo',
+    },
+    {
+      tema: 'Calibración de los instrumentos de medición',
+      referencia:
+        'Testo Argentina (2021). Certificados de calibración de equipos patrones. ',
+      tipo: 'Archivo ejemplo certificado de calibración testo argentina.',
+      link:
+        'https://www.testo.com/es-AR/Certificados+de+calibraci%C3%B3n+de+equipos+patrones/certpat',
+    },
+    {
+      tema: 'Tipología y equipos',
+      referencia:
+        'CIAE (s,f). ¿Cuáles son los Componentes de Sistemas Fotovoltaicos Autónomos? [Video] YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9FYhr60VFaU',
+    },
+    {
+      tema: 'Tipología y equipos',
+      referencia:
+        'Novum Solar (2019). Sistema Fotovoltaico Conectado a Red - On Grid. [Video] YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=8EiwNy0vVFI',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Huella de carbono',
+      significado:
+        'Es el total de emisiones de gases de efecto invernadero causados por un individuo, organización, lugar o producto, expresado en toneladas de dióxido de carbono equivalente.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Plan energético nacional',
+      significado:
+        'Documento elaborado por la Unidad de Planeación Minero-Energética donde se presentan algunas ideas sobre el desarrollo futuro del sector energético colombiano y sirven de base para los planes nacionales de expansión y transformación energética.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Bayod Rújula, Á. A. (2009). Energías renovables: sistemas fotovoltaicos. Prensas de la Universidad de Zaragoza. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/41940',
+    },
+    {
+      referencia:
+        'Creus Sole, A. (2008). Instrumentación industrial (7a. ed.). Marcombo. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/45913',
+    },
+    {
+      referencia:
+        'Empresa de Energía de Boyacá - EBSA. (2019). Consumo de Electrodomésticos. ',
+      link: 'https://www.ebsa.com.co/consumo-de-electrodomesticos/',
+    },
+    {
+      referencia:
+        'García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600',
+    },
+    {
+      referencia:
+        'IDEAM, UPME. (2006). 	Atlas de viento y energía eólica de Colombia. ',
+      link: 'https://bdigital.upme.gov.co/handle/001/22',
+    },
+    {
+      referencia:
+        'IDEAM, UPME. (2017). Atlas de radiación solar, ultravioleta y ozono de Colombia. ',
+      link:
+        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/023775/RADIACION.pdf',
+    },
+    {
+      referencia:
+        'Rojano Ramos, S. (2012). Instrumentación y control en instalaciones de procesos, energía y servicios auxiliares (MF0047_2). IC Editorial. ',
+      link:
+        ' https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42688',
+    },
+    {
+      referencia:
+        'UPME. (2015). Integración de las energías renovables no convencionales en Colombia. ',
+      link:
+        'http://www.upme.gov.co/Estudios/2015/Integracion_Energias_Renovables/INTEGRACION_ENERGIAS_RENOVANLES_WEB.pdf',
+    },
+    {
+      referencia: 'UPME. (2020). Plan Energético Nacional 2020-2050. ',
+      link: 'https://www1.upme.gov.co/DemandayEficiencia/Paginas/PEN.aspx',
+    },
+    {
+      referencia: 'WIKA. (2021). ¿Cómo funcionan los manómetros mecánicos? ',
+      link:
+        'https://www.bloginstrumentacion.com/instrumentacion/construccin-funcionamiento-de-manmetros-mecnicos/',
+    },
+    {
+      referencia: 'WIKA. (2021). ¿Qué es un transmisor de presión? ',
+      link:
+        'https://www.bloginstrumentacion.com/knowhow/qu-es-un-transmisor-de-presin/',
     },
   ],
   creditos: [
@@ -209,9 +333,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -219,9 +343,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Marlon Augusto Villamizar Morales',
+          cargo: 'Experto Técnico',
+          centro: 'Global Green Growth Institute (GGGI)',
+        },
+        {
+          nombre: 'Carolina Arias',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -229,19 +384,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Yobani Penagos Mora',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco Javier Vásquez Suarez',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -249,14 +419,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
