@@ -360,6 +360,41 @@
           img(src='@/assets/curso/temas/tema2/tema2-16.png', alt='') 
 
 
+    Separador
+    #t_2_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 2.3 Reducción de huella de carbono y energías renovables
+
+    p.mb-3(data-aos="fade-down-right") Se invita a conocer la reducción de huella de carbono y energías renovables.
+    p.mb-5(data-aos="fade-down-right") El uso de las fuentes renovables para la generación de energía es una de las herramientas que a nivel mundial se está implementando para mitigar los efectos del cambio climático en todo el planeta. Las emisiones de gases de efecto invernadero (GEI) producidas por la demanda de los diferentes energéticos va en aumento a la par con el aumento de la demanda de energía a nivel mundial. 
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-17.png', alt='') 
+      .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
+        .cajon.color-acento-contenido.p-3
+          p Nuestro país no es ajeno a esta situación, y desde el año 2001 se viene trabajando en estrategias para el desarrollo de las tecnologías de generación con fuentes renovables no convencionales como la energía solar, eólica, biomasa, y recientemente el hidrógeno y la energía geotérmica. https://www.shutterstock.com/es/image-photo/businessman-draw-growth-graph-progress-business-1504342112
+
+    p.mb-3(data-aos="fade-down-right") Cabe recordar que uno de los principales impactos ambientales positivos de este tipo de energías es la generación de energía con cero emisiones de GEI, con lo cual es posible cumplir las metas de reducción de emisiones propuestas a nivel país.
+    p.mb-3(data-aos="fade-down-right") Según UPME (2020) “El reto de los próximos 30 años será abastecer una demanda creciente de energía utilizando menos combustibles fósiles”; adicionalmente determina que la generación distribuida de electricidad con sistemas solares fotovoltaicos permitirá mejorar la competitividad del mercado eléctrico colombiano y dará mejor protagonismo al usuario para el cuidado y uso responsable de los recursos energéticos. 
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-18.png', alt='') 
+      .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-19.png', alt='') 
+
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        .cajon.color-acento-botones.p-3
+          p Lo anterior quiere decir que del total de los 3.000.000 de kWh al año que consume la empresa, 600.000 kWh provendrán del sistema fotovoltaico que emite cero emisiones de GEI.  Por lo tanto, el beneficio principal desde el punto de vista ambiental es que la nueva huella de carbono por concepto de consumo de energía para este usuario será de:
+          p.text-center 𝐻𝑢𝑒𝑙𝑙𝑎 𝑑𝑒 𝑐𝑎𝑟𝑏𝑜𝑛𝑜_𝑒𝑙𝑒𝑐𝑡𝑟𝑖𝑐𝑖𝑑𝑎𝑑=(3.000.000−600.000) [𝑘𝑊ℎ] ∗ 0,166 [𝑘𝑔 𝐶𝑂_2𝑒𝑞/𝑘𝑊ℎ] = 398.400 [𝑘𝑔 𝐶𝑂_2𝑒𝑞] = 398,4 [𝑡𝑜𝑛 𝐶𝑂_2𝑒𝑞]
+          p.text-center Es decir, se ha obtenido una reducción del 20% en la emisión de GEI a la atmósfera, adicional al beneficio económico de tener una fuente de generación de energía local que se verá en los próximos componentes.
+
+
 
 </template>
 
