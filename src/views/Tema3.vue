@@ -216,6 +216,105 @@
         figure
           img(src='@/assets/curso/temas/tema3/tema3-14.png', alt='') 
 
+    Separador
+    #t_3_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 3.3 Sombreamiento, inclinación y orientación
+
+    p.mb-4 Para el análisis de los sistemas fotovoltaicos, existen pérdidas de energía asociadas a la instalación de los paneles y a los obstáculos presentes alrededor de la instalación. En general existen dos tipos de pérdidas asociadas al lugar de la instalación:
+
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-5.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-15.png', alt='') 
+      .col-12.col-md-7.mb-4.mb-lg-0(data-aos="fade-right") 
+        .cajon.color-acento-botones.p-3
+          h4 Pérdidas por sombreamiento
+          p El cálculo de los sombreamientos es muy importante para cuantificar las pérdidas que se pueden tener por este efecto en una instalación. La presencia de sombras, tendrá como consecuencia la disminución de la producción de electricidad. Por lo tanto, para el diseño de los sistemas fotovoltaicos se deben implementar configuraciones de instalación de los paneles solares de tal forma que se evite la influencia de las sombras. 
+          p Para identificar los efectos del sombreamiento producidos por los movimientos del sol y los elementos, se utilizan herramientas como los diagramas estereográficos, los cuales permiten calcular si se va a tener sombras en la instalación, una vez sean conocidos el acimut y la altura del edificio u obstáculo. Normalmente este tipo de pérdidas se calculan vía software o se utilizan tablas específicas para cada país donde se presentan unos factores de pérdidas que se deben aplicar.
+
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-8.mb-4.mb-lg-0(data-aos="fade-right") 
+        .cajon.color-acento-contenido.p-3
+          h4 Pérdidas por inclinación y orientación.
+          p Para obtener el mayor rendimiento energético del panel solar, se debe tener en cuenta la inclinación y la orientación del panel o del arreglo de paneles solares a instalar y dependiendo del país y la zona donde se van a instalar los paneles, las condiciones son diferentes. Otro punto a tener en cuenta es que, si por ejemplo se quiere aprovechar el tejado de una vivienda o de una industria para la instalación, este tejado ya tiene una inclinación que no se puede cambiar. Por lo tanto, en el momento de diseñar el sistema fotovoltaico, se tendrán en cuenta este tipo de detalles para analizar la producción final de electricidad.
+          p Para el caso de Colombia, al estar ubicados cerca de la línea ecuatorial y al no existir estaciones como en otros países, se tiene una gran ventaja porque las condiciones ambientales son muy parecidas durante todo el año. Debido a lo anterior, la orientación óptima para Colombia es instalar los paneles solares hacia el sur geográfico del lugar de instalación. Adicionalmente, la inclinación ideal de los paneles solares en Colombia está entre 10° y 15° con respecto a la línea paralela al suelo. Lo anterior para garantizar que con esa misma inclinación, el panel solar pueda limpiarse de manera fácil. 
+      .col-12.col-md-4.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-16.png', alt='') 
+
+    Separador
+    #t_3_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 3.4 Ejemplo de Dimensionamiento
+
+    p.mb-5 Para el dimensionamiento de las instalaciones solares fotovoltaicas actualmente se utiliza software especializado. Sin embargo, para aplicaciones pequeñas como viviendas rurales se utiliza un método de cálculo sencillo que permite el diseño de instalaciones con herramientas convencionales como hojas de cálculo. En este capítulo se pretende dimensionar de forma básica una instalación solar fotovoltaica de tipo autónomo para la electrificación de una vivienda rural que quiere autoabastecer su consumo sin energía de la red principal. 
+    
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right") 
+        .cajon.color-acento-botones.p-3
+          p Cabe mencionar que se hace como ejercicio didáctico, por lo tanto, algunos detalles de la instalación como planos constructivos, diagramas unifilares eléctricos, puesta a tierra y demás no son tenidos en cuenta. Para los sistemas conectados a red se pueden utilizar algunos de los pasos mostrados a continuación, sin embargo, al ser un tipo de sistema diferente algunos componentes como las baterías no están presentes. Actualmente existen varios métodos para el dimensionamiento de sistemas autónomos que se pueden elegir, para esta ocasión se muestran los pasos a seguir de acuerdo con Bayod (2019):
+      .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-17.png', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong A. Identificación del lugar de instalación y condiciones ambientales. ]
+
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-18.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong B. Determinación de la demanda o consumo de energía diaria.]
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-19.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong C. Determinación de la energía necesaria para el diseño.]
+
+    p.mb-5 Una vez se calcula la energía eléctrica consumida por la vivienda, es necesario aplicar a este valor factores de multiplicación para que el diseño esté por encima de las especificaciones mínimas requeridas y sean suplidas las pérdidas que se presentan en los demás elementos del sistema como cables, regulador y conductores entre otros.  El primero de los factores se denomina margen de seguridad y resulta de aumentar en un 15% el valor del consumo calculado en el paso anterior. Teniendo en cuenta lo anterior, el nuevo consumo con el margen de seguridad incluido del 15% es:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-20.svg', alt='') 
+
+    p.mb-5 Una vez calculado el Consumo aplicando el Margen 1, se debe tener en cuenta la eficiencia de conversión de corriente continua a corriente alterna, el cual en ningún momento es del 100%. Siempre existen unas pérdidas asociadas que dependen de la tecnología del inversor y de la curva de funcionamiento del mismo. Normalmente la eficiencia de los inversores varía entre 80% y 90% o mayor, sin embargo, para este ejercicio se tomará una eficiencia del 85%. La fórmula utilizada para calcular la demanda de energía eléctrica total para diseño es:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-21.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong D. Evaluación de la irradiación global horizontal diaria disponible.]
+
+    p.mb-5 En este paso se debe dirigir a las fuentes de información disponible de tal forma que se pueda encontrar el valor de la irradiación global horizontal disponible en la zona de instalación del sistema fotovoltaico. Para este caso en particular, se utiliza el Mapa nacional multianual de irradiación global horizontal medio diario anual. (página 74 del documento IDEAM, UPME. (2017)) en donde se determina que el valor de la irradiación global para la ciudad de Bucaramanga se encuentra en un rango entre 3,5 y 4 (kWh )/m2. Para garantizar que el diseño esté por encima de las especificaciones, se toma el valor menor del rango. Es decir, para el presente ejercicio se tomará el valor de 3,5  (kWh )/m2 = 3500 (Wh )/m2 Una vez se determina este valor, se procede a calcular las horas solares pico (HSP) de la siguiente manera:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-22.svg', alt='') 
 
 
 
