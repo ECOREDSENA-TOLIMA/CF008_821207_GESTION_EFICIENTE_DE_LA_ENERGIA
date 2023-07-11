@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
+    p Los instrumentos de medición energética todos los dispositivos empleados para medir la magnitud de una corriente eléctrica con el fin de controlar los procesos y determinar el potencial energético. Para ello hace uso de herramientas específicas que determinan la evaluación de dicho potencial de la energía fotovoltaica y la energía eólica. En el siguiente mapa, podrá reconocer los principales conceptos abordados con respecto a este tema.
     p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
 
     .row.justify-content-center
