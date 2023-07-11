@@ -173,6 +173,50 @@
 
     p.mb-4(data-aos="fade-down-left") Los sistemas fotovoltaicos híbridos son los que cuentan con dos o más fuentes energéticas. Un ejemplo de esto puede ser un sistema de generación de electricidad donde utiliza un sistema fotovoltaico, un sistema de generación eólica y un generador o planta eléctrica Diesel. Estas fuentes pueden trabajar simultáneamente o servir de respaldo en caso de fallo de la fuente principal. Este tipo de sistemas se utiliza en su mayoría para las torres de telecomunicaciones que están instaladas en montaña y sitios alejados y de difícil acceso, por lo tanto, se requiere de un grado de confiabilidad alta para su funcionamiento. Una de las características importantes de estos sistemas es que se pueden complementar con sistemas de baterías que pueden funcionar de forma aislada sin importar si existe o no una fuente de sincronismo.
 
+    Separador
+    #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 3.2 Cálculo de la carga instalada y demanda de energía eléctrica
+
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-5.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-12.png', alt='') 
+      .col-12.col-md-7.mb-4.mb-lg-0(data-aos="fade-right") 
+        .cajon.color-acento-contenido.p-3
+          p El cálculo de la carga instalada y la demanda de energía eléctrica son requeridos como punto de partida para el diseño de un sistema fotovoltaico, especialmente para los sistemas autónomos donde la cantidad de paneles, inversores, baterías y demás están determinados por la demanda energética del lugar de instalación. Para entender las bases del concepto de carga instalada y demanda de energía eléctrica se recomienda repasar el tema carga y demanda eléctrica del módulo requisitos de producto. Existen dos métodos para obtener la demanda de energía eléctrica de un lugar:
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong A.Demanda calculada: ]
+
+    p.mb-3 Se denomina calculada porque resulta del cálculo del consumo de electricidad para cada uno de los equipos eléctricos descritos en el cuadro de cargas del lugar. La energía eléctrica se obtiene de la multiplicación de la potencia en vatios (W) de cada equipo por las horas al día de funcionamiento, obteniendo el valor en vatios-hora (Wh) que posteriormente se pueden convertir en unidades de kilovatio-hora (kWh).
+    p.mb-5 A continuación, se muestra un ejemplo de la demanda de energía eléctrica calculada para una vivienda. La potencia de cada equipo eléctrico se puede obtener observando la placa de datos que viene en cada uno de ellos, también en el manual de servicio del equipo o se puede estimar de acuerdo a otras referencias como la mostrada en el siguiente enlace de la Empresa de Energía de Boyacá - EBSA (2019): https://www.ebsa.com.co/consumo-de-electrodomesticos/
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-13.svg', alt='') 
+
+    p.mb-5 De lo anterior se concluye que el consumo diario para este caso es de 6,8 kWh-día, y asumiendo que se consume lo mismo durante los treinta (30) días del mes, el consumo mensual es de 204 kWh-mes.
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong B. Demanda Medida: ]
+
+    p.mb-5 El método de la demanda calculada es utilizado normalmente en aplicaciones muy sencillas. En aplicaciones más complejas donde la elaboración de un cuadro de cargas y un cuadro de cálculo resulta compleja de obtener debido a la gran cantidad de equipos conectados en las instalaciones del usuario interesado en instalar un sistema fotovoltaico, se prefiere utilizar medidores de energía que tengan la capacidad de medir y registrar en una memoria interna los valores de energía eléctrica en cada minuto u hora del día. Normalmente estos medidores se instalan en la acometida eléctrica de entrada y la instalación debe ser lo suficientemente segura para garantizar la seguridad de las personas y de los equipos instalados. Existen medidores con diferentes tecnologías desde los más avanzados llamados analizadores de red hasta los más sencillos medidores monofásicos.
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-14.png', alt='') 
+
+
 
 
 </template>
