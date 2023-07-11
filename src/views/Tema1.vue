@@ -581,10 +581,99 @@
                     span Ver video
                     i.fas.fa-video
 
+    Separador
+    #t_1_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.5 Medición de velocidad y dirección del viento
 
+    p.mb-4(data-aos="fade-down") Para el análisis de factibilidad para el uso de la energía eólica como energético primario en un lugar determinado, se debe tener como mínimo la capacidad de medir el valor de la velocidad y la dirección del viento. 
 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#25FFFF")
+            | #[strong A. Medición de velocidad]
 
+    p.mb-3(data-aos="fade-down") El instrumento de medición utilizado para este fin se denomina anemómetro y el más utilizado es el anemómetro de rotación, que a subes puede ser de tipo cazoletas o de tipo hélice. Ambos funcionan con el principio en que la velocidad de rotación es proporcional a la velocidad del viento. Dicha rotación puede medirse contando mecánicamente el número de rotaciones por medio de un sensor óptico o a través de un pequeño motor eléctrico que actúa como generador. Los anemómetros de tres cazoletas semicónicas y semiesféricas son los más utilizados, y que permiten medir las componentes horizontales del viento.
+    p.mb-5(data-aos="fade-down") Algunas imágenes de anemómetros se muestran a continuación: 
 
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-42.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#25FFFF")
+            | #[strong B. Medición de dirección del viento]
+    p.mb-3(data-aos="fade-down") El instrumento empleado generalmente para medir la dirección del viento se denomina veleta, el cual consiste en un dispositivo instalado sobre un eje vertical y de giro libre, de tal modo que puede moverse cuando el viento cambia de dirección. En la mayoría de los instrumentos, el movimiento de la veleta está amortiguado para prevenir cambios demasiado rápidos o bruscos de la dirección del viento.
+    p.mb-5(data-aos="fade-down") Algunas imágenes de anemómetros se muestran a continuación: 
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-43.svg', alt='') 
+
+    Separador
+    #t_1_6.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.6 Características generales de los instrumentos de medición
+
+    p.mb-5(data-aos="fade-down") Explorar las características generales de los instrumentos de medición.
+
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down-left")
+      SlyderA(tipo="b")
+        .row.align-items-center.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h5 Panorama desde las empresas y organizaciones
+            p Reconocer las características principales de cada instrumento de medición es muy importante para la selección del medidor adecuado dependiendo de la necesidad específica y la variable que se pretende medir. Para este fin, cada instrumento de medición posee un documento denominado Ficha Técnica en donde se muestran las principales características.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-44.png', alt='')
+        .row.align-items-center.justify-content-center
+          .col-md-7.mb-4.mb-md-0
+            h5 A continuación, se describen las características más importantes para los instrumentos de medida:
+            p #[strong Rango de Medida:] corresponde al conjunto de valores comprendidos entre el valor mínimo y el valor máximo de medida del instrumento. Al valor mínimo de la variable se le conoce como LRV y al valor máximo de la variable se le conoce como URV.
+            p #[strong Alcance o Spam:] es la diferencia algebraica entre los valores del URV y el LRV.
+            p #[strong Error:] se define como la diferencia en porcentaje entre el valor medido por el instrumento y el valor real de la variable medida. Si se desea conocer el valor del error en una medida, se utiliza la siguiente fórmula:
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-45.png', alt='')
+        .row.align-items-center.justify-content-center
+          .col-md-8.mb-4.mb-md-0
+            h5 Otras características importantes son:
+            p #[strong Exactitud.] Esta cantidad determina qué tan cerca se encuentra el valor medido por el instrumento del valor real de la variable a medir. Por lo general se relaciona con el concepto de error y en las hojas de especificaciones de los medidores se muestra el porcentaje de error con respecto al valor máximo de la variable URV.
+            p #[strong Incertidumbre en la medida:] Es el valor obtenido cuando se realiza la comparación entre el valor medido por un instrumento de medida y otro instrumento con mayor o igual exactitud normalmente llamado patrón.
+            p #[strong Precisión:] Indica el grado de repetibilidad del instrumento para obtener el mismo valor medido en varias ocasiones.
+            p #[strong Resolución:] Corresponde al valor mínimo confiable que puede medir el instrumento. 
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-46.png', alt='')
+
+    Separador
+    #t_1_7.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.7 Calibración de los instrumentos de medición
+
+    p.mb-3(data-aos="fade-down") La calibración de los instrumentos de medición es de gran importancia, por esto se invita a navegar por la siguiente didáctica.
+    strong.mb-4(data-aos="fade-down") Calibración de los instrumentos de medición.
+    
+    .row.align-items-center.justify-content-center.mb-5
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
+        p En la práctica, el valor real de la variable a medir en ningún momento se va a obtener debido a que ningún instrumento de medición tiene la capacidad de medir con un error de cero. Siempre existirá un grado de incertidumbre que puede ser manejado y calculado con la información de las hojas de datos de cada instrumento. 
+        p Mientras el instrumento sea más exacto, preciso y con mejor resolución, las mediciones mostradas por el instrumento se aproximan al valor real de la variable física a medir. Debido a que internamente los instrumentos de medición están compuestos de partes mecánicas y electrónicas, con el paso del tiempo y por la exposición a las condiciones ambientales del proceso, este tipo de componentes tienden a perder algunas propiedades lo cual puede en muchas ocasiones producir desviaciones en la exactitud y precisión que tienen de fábrica. 
+      .col-md-6(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-47.png', alt='')
+
+    p.mb-5(data-aos="fade-down") Por esta razón, si se desea garantizar que los instrumentos de medición se encuentran en los rangos adecuados de desviación de las mediciones, estos se deben calibrar.
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-48.png', alt='') 
+          
+    p.mb-5(data-aos="fade-down") De manera general, se considera que un instrumento de medición está correctamente calibrado cuando en todos los puntos de su rango de medida, la diferencia entre el valor real de la variable y el valor medido por el instrumento está dentro de los límites del rango de exactitud del instrumento de acuerdo con sus especificaciones. Ahora bien, ¿cómo se puede obtener el valor real de la variable si ningún medidor puede obtener el valor de la variable real? 
 
 </template>
 
