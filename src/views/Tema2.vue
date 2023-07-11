@@ -127,7 +127,7 @@
       .col-12.col-md-12.mb-5(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/tema2-06.svg', alt='') 
-      .col-12.col-md-12.mb-5(data-aos="fade-right")
+      .col-12.col-md-12(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/tema2-07.svg', alt='') 
 
@@ -140,6 +140,111 @@
             i.fas.fa-play(style="color:#25FFFF")
             | Más información respecto a este tema podrá consultarla en el siguiente recurso:
 
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.tarjeta--azul.p-4(titulo="Cantidad de energía consumida")
+        h4 Cantidad de energía consumida
+        p Si se desea conocer la energía consumida (equivalente a la Irradiación) por el bombillo se debe multiplicar la potencia (en este caso 10 W) por el número de horas que se mantiene encendido. Si el bombillo se enciende durante 8 horas al día, la energía consumida por el bombillo será de 80 vatios hora (80 Wh) al día [𝑊ℎ/𝑑í𝑎]. Ahora bien, si se quiere conocer la energía consumida por el bombillo durante todo el año, se debe multiplicar la potencia por el número de horas que se mantiene encendido en el año que pueden ser 2920 horas al año, con lo cual la energía total anual consumida por el bombillo es de 29.200 vatios hora [𝑊ℎ/𝑎ñ𝑜].   
+      .tarjeta.tarjeta--azul.p-4(titulo="Valor de referencia")
+        h4 Valor de referencia 
+        p En la práctica, el valor que se toma como referencia para la evaluación inicial del potencial energético del sol es la irradiación global diaria sobre una superficie horizontal. La razón es que esta variable indica directamente la energía que se puede aprovechar del sol y la escala de tiempo diaria permite de forma rápida el cálculo de las Horas Solares Pico (HSP) que corresponden a las horas al día en que la irradiación global diaria sobre una superficie horizontal hipotéticamente se mantiene en un valor constante de 1000 Wh/m2 o 1 kWh/m2
+      .tarjeta.tarjeta--azul.p-4(titulo="Cálculo de generación de electricidad")
+        h4 Cálculo de generación de electricidad 
+        p Esta variable es muy útil para los cálculos de generación de electricidad con tecnología solar fotovoltaica. Teniendo en cuenta lo anterior, las Horas Solares Pico (HSP) se calcula dividiendo el valor de la irradiación global diaria sobre una superficie horizontal entre 1 𝑘𝑊ℎ/𝑚2.
+      .tarjeta.tarjeta--azul.p-4(titulo="Contexto Nacional del Potencial Energético de la Energía Solar")
+        h4 Contexto Nacional del Potencial Energético de la Energía Solar 
+        p En Colombia se han realizado varios estudios donde se recopila la información de diferentes estaciones meteorológicas públicas y privadas con el fin de determinar los valores promedio para el uso en estudios de evaluación de potencial energético. En Colombia el IDEAM es la entidad oficial encargada de hacer el seguimiento a la radiación y cuenta con la red más grande de estaciones y de mayor cobertura. 
+        p De acuerdo con UPME (2015) el país cuenta con una irradiación global horizontal diaria promedio de 4,5 kWh / m2 la cual está por encima del promedio mundial de 3,9 kWh / m2.
+        p Adicionalmente el valor promedio presente en el país es superior al promedio  presente en Alemania (3,0 kWh / m2), país líder a nivel mundial en la implementación de la energía solar Fotovoltaica. 
+      
+    p.mb-4(data-aos="fade-down") Para la determinación de la irradiación global horizontal diaria en alguna zona específica del país, se tienen varias opciones dentro de las cuales se destacan las siguientes:
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong A. Atlas Solar de Radiación Solar, Ultravioleta y Ozono de Colombia (opción 1):]
+
+    p.mb-4(data-aos="fade-down") Según IDEAM, UPME. (2017) el Atlas de Radiación Solar, Ultravioleta y Ozono de Colombia es una herramienta fundamental para la valoración de la disponibilidad de la energía solar en el territorio nacional y para conocer el comportamiento de la radiación ultravioleta, el ozono y sus relaciones, que contribuyen a entender sus efectos en la salud humana.  El atlas contiene un conjunto de mapas climatológicos en donde se representan la distribución promedio mensual y anual de las siguientes variables: irradiación solar global horizontal, brillo solar, número de días al mes sin brillo solar, radiación ultravioleta y la columna total de ozono, acompañadas de análisis regionales del comportamiento promedio anual y a lo largo del año de estas variables. También contiene datos teóricos acerca del comportamiento del sol, información acerca de las fuentes de información e instrumentos de medición, y anexos con información adicional. 
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-left")
+      .col-12.mb-4.mb-md-0
+        p Para ambos casos, se puede obtener la siguiente información: 
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Mapa nacional multianual de irradiación global horizontal medio diario anual. (Página 74 del documento IDEAM, UPME. (2017)). En este mapa se representa a través de una escala de colores el comportamiento del promedio anual de todos los meses del año de la irradiación global horizontal diaria.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Mapa nacional mensual de irradiación global horizontal medio diario. (Páginas 68 a 73 del documento IDEAM, UPME. (2017)). En total son doce (12) mapas (uno por cada mes del año) donde se representa a través de una escala de colores el comportamiento del promedio mensual de la irradiación global horizontal diaria.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Tablas de datos con información de los promedios horarios mensuales de irradiación global horizontal media para algunas ciudades del país.  (Páginas 139 a 143 del documento IDEAM, UPME. (2017)).
+
+    p.mb-4(data-aos="fade-down-left") #[strong ¿Qué información y cómo se determina el valor de la irradiación global horizontal?] 
+
+    h5.mb-3(data-aos="fade-down-right") A través de los mapas: 
+    p.mb-5(data-aos="fade-down-right") Una vez se tenga descargado el Mapa nacional multianual de irradiación global horizontal medio diario anual, se debe ubicar las convenciones en dicho mapa donde aparecerá lo siguiente:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-08.png', alt='') 
+
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0.cajon.tarjeta--azul.py-3(data-aos="fade-right")
+        p.mb-3(data-aos="fade-down-right") En la parte Leyenda, se encuentra una barra de colores con los rangos de valores de la irradiación global horizontal. Cada color corresponde a un rango específico. Luego se procede a ubicar la zona de interés dentro del mapa observando el color que corresponda. A manera de ejemplo se tiene la siguiente imagen donde aparecen indicadas las ciudades de Cartagena, Barranquilla y Sincelejo. Se observa que las áreas donde están ubicadas las ciudades de Barranquilla y Cartagena tienen color naranja mientras que el área de la ciudad de Sincelejo tiene un color amarillo oscuro. Regresando a las convenciones, se observa que el color naranja corresponde a un rango de irradiación global horizontal diaria entre 5 y 5,5 (kWh )/m2, mientras que el color amarillo oscuro corresponde a un rango de irradiación global horizontal diaria entre 4,5 y 5 (kWh )/m2. 
+        p.mb-3(data-aos="fade-down-right") Para efectos de diseño de un sistema de generación con energía solar, normalmente se toma el valor más pequeño del rango.
+
+    p.mb-3(data-aos="fade-down-right") Teniendo en cuenta los datos anteriores, se puede afirmar que para la ciudad de Sincelejo el valor de la irradiación global horizontal promedio diario durante el año es de 4,5 kWh/m2 díatomando el valor mínimo del rango. Si se requiere calcular las Horas Solares Pico (HSP) en esa ciudad, se divide el valor anterior por 1kWh/m2, lo cual da como resultado que las horas solares promedio anual diario es de 4,5 horas. Si realiza este mismo ejercicio para las demás ciudades, se concluye que el potencial de generación con energía solar es mayor en las ciudades de Barranquilla y Cartagena que en Sincelejo. 
+
+    h5.mb-3(data-aos="fade-down-right") A través de las tablas de datos: 
+    p.mb-3(data-aos="fade-down-right") Las tablas de datos son una herramienta útil si se requiere un valor determinado y no un rango de valores para la irradiación global horizontal diaria. Se debe tener en cuenta que esta información se tiene solo para algunas ciudades, de tal forma que si se requiere un valor determinado para una zona donde no existe tabla, se debe recurrir al método con el mapa o a otras herramientas de información climática que más adelante se describirán. Cada una de las tablas de datos poseen la siguiente información: ciudad de referencia, estación meteorológica utilizada, horas del día (desde las 0 hasta las 24 horas), mes del año, valor promedio horario de la irradiación global horizontal, valor promedio diario de la irradiación global horizontal.
+    p.mb-5(data-aos="fade-down-right") Este último valor corresponde al valor promedio diario mensual. En la misma tabla aparecen unas convenciones de colores con unos rangos indicativos diferentes a los de los mapas, con el fin de identificar rápidamente dentro de la tabla cuáles con las horas en donde se tiene una cantidad mayor de irradiación global horizontal.
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-09.png', alt='') 
+
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong B. Bases de datos con información satelital y climática (opción 2):]
+
+    p.mb-5(data-aos="fade-down-right") Cuando se requiere realizar un diseño con ingeniería detallada para la evaluación energética de por ejemplo un sistema solar fotovoltaico y un sistema solar térmico, generalmente se realiza la consulta de las bases de datos de organizaciones o empresas quienes han recogido y procesado la información proveniente de las estaciones meteorológicas locales de cada país y la han complementado con información proveniente de los satélites. Algunas de estas bases de datos suministran la información de forma gratuita y en otras se debe pagar por la información. Algunos ejemplos de bases de datos más conocidas son:
+    
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0.cajon.tarjeta--azul.py-3(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | NASA Power (https://power.larc.nasa.gov/data-access-viewer/). Es gratuita.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | SOLARGIS (https://solargis.com/) Se debe pagar una suscripción, sin embargo algunos mapas son gratis.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Meteonorm (https://meteonorm.com/en/). Se debe pagar una suscripción.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | PVGIS (https://ec.europa.eu/jrc/en/pvgis) Es gratuita.
+          li.mb-0
+            i.fas.fa-bolt(style="color:#AD84FF")
+            | Global Solar Atlas (https://globalsolaratlas.info). Es gratuita y se apoya en los datos de SOLARGIS. Está diseñada también para calcular el potencial de generación con tecnología fotovoltaica.
+
+    p.mb-3(data-aos="fade-down-right") Este tipo de bases de datos utilizan una interfaz gráfica que permite ubicar la zona donde se requiere evaluar el potencial energético solar a través de la selección con un cursor en un mapa o a través de las coordenadas geográficas. Adicionalmente permite ver de forma gráfica la información y en la mayoría de los casos permite descargar los datos en archivos planos para su manipulación y procesamiento en otras aplicaciones. 
+    p.mb-5(data-aos="fade-down-right") En la siguiente figura se puede observar la pantalla de la base de datos Global Solar Atlas cuando el cursor del mapa de ubica en la ciudad de Barranquilla:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-10.png', alt='') 
+
+    p.mb-5(data-aos="fade-down-right") Como se puede observar en la figura anterior, el valor de la irradiación global horizontal promedio anual diaria (en inglés Global Horizontal Irradiation GHI) es de 5,689 kWh/m2 día.
 
 
 
