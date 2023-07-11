@@ -323,6 +323,267 @@
                     span Ver video
                     i.fas.fa-video
 
+    Separador
+    #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.3 Medición de Nivel
+
+    p.mb-5(data-aos="fade-down") Conocer la medición de nivel y sus diferentes procesos a continuación:     
+
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            p En general existen gran cantidad de tecnologías para la medición y detección de nivel. Dichas tecnologías se pueden aplicar tanto a medición de nivel en líquidos y algunas en la medición de nivel en sólidos con marcadas diferencias por el tipo de aplicación y las condiciones ambientales. 
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-23.png', alt='')
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            p La medición de nivel es importante cuando se requiere por ejemplo conocer la altura de la columna de agua en un embalse de generación de energía, la cantidad de combustible en un recipiente para un generador de electricidad que utiliza diesel u otro tipo de energético primario, y muchas otras aplicaciones industriales donde conocer esta variable es determinante para los procesos productivos.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-24.png', alt='')
+
+    p.mb-5(data-aos="fade-down") A continuación, se mencionan algunas de las tecnologías más utilizadas en la medición de nivel.
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#25FFFF")
+            | #[strong A. Medición continua de nivel con instrumentos tipo Flotador]
+
+    p.mb-4(data-aos="fade-down") Complementar la información de la didáctica de medición de nivel, conociendo diferentes instrumentos de medición.      
+
+    .row.align-items-center.mb-4(data-aos="fade-down-left")
+      .col-12
+        h5 Medición continua de nivel con instrumentos tipo Flotador
+      .col-md-4
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-25.png', alt='')
+      .col-md-6.mb-4.mb-md-0
+        p Este tipo de medición aplica solo para los líquidos, ya que el principio del instrumento utiliza un flotador que tiene una densidad muy reducida de forma que flota sobre el líquido. 
+      .col-12.mt-4
+        h5 En algunos casos 
+      .col-md-4
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-26.png', alt='')
+      .col-md-6.mb-4.mb-md-0
+        p El flotador va unido a un sistema de cuerdas, poleas y contrapesos que permite en el exterior una visualización del nivel del tanque o recipiente. 
+      .col-12.mt-4
+        h5 Otra tecnología usada 
+      .col-md-4
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-27.png', alt='')
+      .col-md-6.mb-4.mb-md-0
+        p Utiliza un imán al interior del flotador, que sube y baja a través de un eje que posee internamente unos microinterruptores llamados Reed switch que se van cerrando a medida que el flotador pasa por ese punto.
+      .col-12.mt-4
+        h5 Estos interruptores 
+      .col-md-4
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-28.png', alt='')
+      .col-md-6.mb-4.mb-md-0
+        p Están acoplados a unas resistencias y a través de un circuito electrónico se detecta el valor de la resistencia para conocer el valor del nivel del líquido a medir.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias reed switch: 
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ujPcgh1JDLc" target="_blank")
+                    span Ver video
+                    i.fas.fa-video
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#25FFFF")
+            | #[strong B. Medición continua de nivel con indicadores tipo mirilla]
+
+    p.mb-4(data-aos="fade-down") Este tipo de instrumentos permiten visualizar en sitio el valor del nivel del fluido al interior de un recipiente. Se basa en el principio físico de los vasos comunicantes en donde si el líquido está en reposo, alcanza el mismo nivel si se tiene uno o varios recipientes interconectados por su parte inferior. Por lo general para este tipo de medida se cuenta con un recipiente exterior y de menor tamaño instalado en paralelo al recipiente a medir y se encuentra interconectado por la parte inferior y exterior del mismo. A medida que el nivel del líquido sube y baja al interior del recipiente principal, esto se ve reflejado en el medidor exterior. Es importante que el fluido a medir esté libre de sólidos e impurezas para que se pueda obtener una medida confiable.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small En el siguiente video se muestra el funcionamiento de un medidor de nivel con indicador tipo mirilla: 
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=zlaTXjhaISg" target="_blank")
+                    span Ver video
+                    i.fas.fa-video
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#25FFFF")
+            | #[strong C. Medición continua de nivel por presión hidrostática]
+
+    p.mb-4(data-aos="fade-down") En muchas aplicaciones para la medición de nivel en líquidos, se utilizan medidores de presión aprovechando el principio físico de la presión hidrostática en donde existe una relación entre la altura de la columna del fluido (para cualquier valor de densidad) y la presión de este en el fondo de dicha columna, independientemente de la forma del recipiente. En otras palabras, es posible calcular la altura de un líquido dentro de un recipiente si se mide la presión generada en el fondo y se conoce su densidad.
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-12.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-29.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small En el siguiente video se muestra el funcionamiento básico de un medidor de nivel por presión hidrostática:
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=YaSW_SIhe4E" target="_blank")
+                    span Ver video
+                    i.fas.fa-video
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#25FFFF")
+            | #[strong D. Medición continua de nivel con instrumentos sin contacto]
+
+    p.mb-4(data-aos="fade-down") Explorar la siguiente didáctica, descubriendo cómo medir niveles con instrumentos sin contacto.
+
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down-right")
+      SlyderA(tipo="b")
+        .row.align-items-center.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Medición continua de nivel con instrumentos sin contacto.
+            p Los anteriores métodos de medición continua de nivel utilizan sensores que están en contacto directo con el fluido a medir.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-30.png', alt='')
+        .row.align-items-center.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h4 En las aplicaciones 
+            p Y condiciones ambientales donde no es conveniente el contacto directo del sensor con el fluido o sólido a medir, es posible utilizar sensores que utilizan tecnologías sin contacto. Las tecnologías más utilizadas en la industria para este tipo de aplicaciones son:
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-31.png', alt='')
+        .row.align-items-center.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Ultrasonido: 
+            p El medidor internamente posee un transmisor que envía una onda de ultrasonido hacia la superficie a medir, para posteriormente a través de un receptor instalado en el mismo medidor sea recibida de vuelta la señal una vez haya rebotado en la superficie a medir. Electrónicamente el medidor calcula el tiempo de ida y regreso de la señal y con este valor determina la distancia a la cual se encuentra. Los sensores de ultrasonido trabajan por lo general a una frecuencia de entre 10 kHz y 100 kHz.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-32.png', alt='')
+        .row.align-items-center.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Radar: 
+            p Los sensores de nivel de tipo radar utilizan el mismo principio de funcionamiento de los sensores por ultrasonido, pero emiten pulsos de ondas entre los 5,6 GHz y 26 GHz. Las ondas del radar son más rápidas y poseen mayor versatilidad al no verse afectada por las condiciones ambientales como el viento, el vapor, etc.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-33.png', alt='')
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small En el siguiente video se muestra el funcionamiento básico de un medidor de nivel por ultrasonido y un medidor de nivel por radar.
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Rq_EPoKHmgo" target="_blank")
+                    span Ver video
+                    i.fas.fa-video
+
+    Separador
+    #t_1_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.4 Medición de radiación solar (piranómetros)
+ 
+    p.mb-4(data-aos="fade-down") Para llevar a cabo la medición de la radiación solar incidente sobre la superficie de la Tierra, se hace uso del piranómetro, el cual consiste en un sensor diseñado para medir la densidad del flujo de radiación solar en un campo de 180 grados. A continuación, encontrará más información al respecto: 
+
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down-left")
+      SlyderA(tipo="b")
+        .row.align-items-center.justify-content-center
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-34.png', alt='')
+          .col-md-6.mb-4.mb-md-0
+            p Para el análisis de factibilidad para el uso de la energía solar como energético primario en un lugar determinado, se debe tener la capacidad de medir el valor de la radiación incidente sobre un área determinada.  
+        .row.align-items-center.justify-content-center
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-35.png', alt='')
+          .col-md-6.mb-4.mb-md-0
+            p La energía disponible del sol depende de la localización geográfica de un punto en el planeta tierra (latitud, longitud, elevación) y de los factores climáticos como las estaciones del año.
+        .row.align-items-center.justify-content-center
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-36.png', alt='')
+          .col-md-6.mb-4.mb-md-0
+            p La variable utilizada para determinar el potencial solar sobre un lugar específico se llama Radiación Global y se mide sobre una superficie horizontal en un ángulo de 180 grados.  
+        .row.align-items-center.justify-content-center
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-37.png', alt='')
+          .col-md-6.mb-4.mb-md-0
+            p Se realiza la medición mediante un piranómetro el cual determina el flujo de energía por unidad de área y de tiempo sobre la superficie horizontal expuesta al sol sin ningún tipo de sombra.
+        .row.align-items-center.justify-content-center
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-38.png', alt='')
+          .col-md-6.mb-4.mb-md-0
+            p La unidad de medida de la Radiación Global está dada en Joule por segundo (J/s) equivalente a un vatio (W).
+        .row.align-items-center.justify-content-center
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-39.png', alt='')
+          .col-md-6.mb-4.mb-md-0
+            p Trabaja mediante el aprovechamiento de la diferencia de temperatura que se presenta entre un material de color negro y otro de color blanco instalados al interior de una cúpula de vidrio óptico transparente utilizada para proteger los sensores de los factores externos como la lluvia y el polvo. 
+        .row.align-items-center.justify-content-center
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-40.png', alt='')
+          .col-md-6.mb-4.mb-md-0
+            p La diferencia de temperatura produce una diferencia de voltaje entre dos terminales y este es convertido electrónicamente a los valores de radiación global obtenidos. 
+
+    p.mb-4(data-aos="fade-down") Algunas imágenes de piranómetros se muestran a continuación:
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-12.mb-5.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-41.png', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small En el siguiente video se muestra algunas características de los piranómetros: 
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=0ud7h5_G-5U" target="_blank")
+                    span Ver video
+                    i.fas.fa-video
+
+
+
+
 
 
 </template>
