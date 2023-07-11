@@ -260,7 +260,7 @@
       .col-12(data-aos="fade-right")
         ul.lista-ul.mb-2
           li.mb-0
-            i.fas.fa-play(style="color:#AD84FF")
+            i.fas.fa-play(style="color:#0B428A")
             | #[strong A. Identificación del lugar de instalación y condiciones ambientales. ]
 
 
@@ -273,7 +273,7 @@
       .col-12(data-aos="fade-right")
         ul.lista-ul.mb-2
           li.mb-0
-            i.fas.fa-play(style="color:#AD84FF")
+            i.fas.fa-play(style="color:#0B428A")
             | #[strong B. Determinación de la demanda o consumo de energía diaria.]
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
@@ -285,7 +285,7 @@
       .col-12(data-aos="fade-right")
         ul.lista-ul.mb-2
           li.mb-0
-            i.fas.fa-play(style="color:#AD84FF")
+            i.fas.fa-play(style="color:#0B428A")
             | #[strong C. Determinación de la energía necesaria para el diseño.]
 
     p.mb-5 Una vez se calcula la energía eléctrica consumida por la vivienda, es necesario aplicar a este valor factores de multiplicación para que el diseño esté por encima de las especificaciones mínimas requeridas y sean suplidas las pérdidas que se presentan en los demás elementos del sistema como cables, regulador y conductores entre otros.  El primero de los factores se denomina margen de seguridad y resulta de aumentar en un 15% el valor del consumo calculado en el paso anterior. Teniendo en cuenta lo anterior, el nuevo consumo con el margen de seguridad incluido del 15% es:
@@ -306,7 +306,7 @@
       .col-12(data-aos="fade-right")
         ul.lista-ul.mb-2
           li.mb-0
-            i.fas.fa-play(style="color:#AD84FF")
+            i.fas.fa-play(style="color:#0B428A")
             | #[strong D. Evaluación de la irradiación global horizontal diaria disponible.]
 
     p.mb-5 En este paso se debe dirigir a las fuentes de información disponible de tal forma que se pueda encontrar el valor de la irradiación global horizontal disponible en la zona de instalación del sistema fotovoltaico. Para este caso en particular, se utiliza el Mapa nacional multianual de irradiación global horizontal medio diario anual. (página 74 del documento IDEAM, UPME. (2017)) en donde se determina que el valor de la irradiación global para la ciudad de Bucaramanga se encuentra en un rango entre 3,5 y 4 (kWh )/m2. Para garantizar que el diseño esté por encima de las especificaciones, se toma el valor menor del rango. Es decir, para el presente ejercicio se tomará el valor de 3,5  (kWh )/m2 = 3500 (Wh )/m2 Una vez se determina este valor, se procede a calcular las horas solares pico (HSP) de la siguiente manera:
@@ -315,6 +315,111 @@
       .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/tema3-22.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong Cálculo del número de paneles solares y la potencia pico a instalar]
+
+    p.mb-5 Para el cálculo de la cantidad de paneles solares y la potencia pico a instalar, se debe seleccionar primero el panel solar a utilizar que se encuentre disponible en el mercado y que se adapte a las condiciones requeridas por el lugar de instalación. Existen varias potencias nominales que se pueden seleccionar. Para este caso en particular, se seleccionó el panel solar con Potencia pico de 300 W. La fórmula para calcular la cantidad total de paneles solares (Np) requeridos es la siguiente:
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.cajon.tarjeta--azul.p-4(data-aos="fade-right")
+        p.text-center.mb-0 Np = 1,1*(R/I) / Potencia del panel elegido =1,1 * (1.022,05 W) / 300 W = 3,74 paneles 
+        p.text-center.mb-0 La constante de 1,1 tiene relación a un margen de seguridad de potencia que se sugiere para el cálculo.
+        p.text-center.mb-0 Como el valor del Np no es un número entero, se aproxima al valor próximo entero que para este caso es 4 paneles.
+        p.text-center.mb-0 El valor de la potencia pico del sistema completo se calcula multiplicando el número de paneles por la potencia pico de cada panel.
+        p.text-center Potencia_(pico del sistema)=Np * Potencia individual del panel seleccionado = 4*300W = 1200 W_pico
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong Diseño del Sistema de Acumulación]
+    p.mb-5 El sistema de acumulación es una de las partes más importantes para el diseño, ya que se compone de baterías que soportan el consumo de energía en horas de la noche y madrugada donde no existe o la radiación solar es muy baja. Para evaluar el tamaño del sistema de acumulación, es necesario definir para el diseño las siguientes variables:
+
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Días de autonomía (D): 
+            p Corresponde al tiempo en días que debe funcionar la instalación fotovoltaica sin recibir radiación solar en las condiciones de diseño. Este valor se determina teniendo en cuenta las condiciones de la instalación como por ejemplo si tiene una planta de energía de respaldo, o si es muy crítico el uso de la energía para esa vivienda o locación. 
+            p Las unidades de la densidad de potencia se expresan en W/m2. Si se desea conocer la densidad de energía 
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-23.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Máxima Profundidad de Descarga (Mpd): 
+            p Corresponde al límite de descarga que puede alcanzar la batería. Para aplicaciones rurales se recomienda tomar un valor de 70%.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-24.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Voltaje de trabajo de la instalación (Vdc): 
+            p Corresponde al voltaje en DC al que trabajarán los componentes como paneles solares, regulador de carga, entrada del inversor y baterías. Este voltaje puede ser generalmente de 12,24 o 48 voltios. Se debe tener en cuenta que el voltaje de trabajo debe ser el mismo para todos los elementos seleccionados. También se debe tener en cuenta que, para instalaciones fotovoltaicas con altas potencias como los parques solares, los voltajes pueden llegar hasta 600 VDC.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-25.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Consumo de diseño (C_diseño): 
+            p.mb-0 Corresponde al valor de diseño del consumo de electricidad calculado en el numeral c.
+            p.mb-0 La capacidad de acumulación (Q) tiene unidades de Amperio-hora (Ah) y se calcula con la siguiente fórmula:
+            p.mb-0 𝑄 = (110∗𝐶_𝑑𝑖𝑠𝑒ñ𝑜∗𝐷)/(𝑉_𝑑𝑐∗𝑀_𝑝𝑑)
+            p.mb-0 Para el caso del ejemplo se consideran los siguientes valores:
+            p.mb-0 𝐷 = 2 𝑑í𝑎𝑠 , 𝑀_𝑝𝑑=70% , 𝑉_𝑑𝑐=12 𝑉𝑜𝑙𝑡𝑖𝑜𝑠 𝐷𝐶, 𝐶_𝑑𝑖𝑠𝑒ñ𝑜=3.577,18 𝑊ℎ−𝑑í𝑎 
+            p 𝑄 = (110∗3.577,18∗2)/(12∗70)=936,88 𝐴ℎ
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-26.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Ahora para seleccionar el número de baterías: 
+            p.mb-0 Se debe buscar en el mercado en lo posible baterías de 12 voltios (o arreglos de baterías en serie y paralelo de 2 voltios) que tengan la mayor capacidad para disminuir su cantidad ya que son elementos costosos. Para este ejercicio, se seleccionan baterías GEL de 12 V y 250 Ah de capacidad cada una. Como las baterías tienen el mismo voltaje del sistema de 12V, se pueden conectar en paralelo y la cantidad de baterías se define como:
+            p.mb-0 Número de baterías =Q /capacidad unitaria de batería  = 936,88/250 = 3,74 baterías. 
+            p Al igual que con los paneles solares, la cantidad de baterías final se aproxima al número entero mayor, que en nuestro caso es 4 unidades.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-27.png', alt='')
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong Selección del regulador de carga]
+
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right") 
+        .cajon.color-acento-contenido.p-3
+          p Para la selección del regulador de carga se debe tener en cuenta que el voltaje de trabajo de dicho regulador sea el mismo del voltaje de diseño de la instalación, que para el ejemplo es de 12V. Adicionalmente se debe calcular la corriente de corto circuito que proviene de los paneles que se encuentra en la hoja de datos de cada panel solar que para nuestro caso es de 8,86 amperios, y como son 4 paneles solares se debe multiplicar por este valor. Es decir, se debe buscar en el mercado comercial un regulador que exceda con las siguientes características mínimas:
+          p.mb-0 Voltaje = 12 V en corriente continua.
+          p.mb-0 Corriente Total = 8,86 amperios * 4 paneles = 35,44 amperios en dc.
+      .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-28.png', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-right")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-play(style="color:#AD84FF")
+            | #[strong Selección del inversor requerido]
+
+    p.mb-4 En el mercado existe gran cantidad de inversores con diferentes tecnologías y eficiencias. El primer parámetro que se debe tener en cuenta para la selección del inversor es que su voltaje de entrada en corriente continua debe ser el mismo del sistema diseñado, que en nuestro caso es de 12 Vdc. Otro parámetro a tener en cuenta es el voltaje de salida en corriente alterna requerido para alimentar los equipos eléctricos de la vivienda o locación. 
+
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+      .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-29.png', alt='') 
+      .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right") 
+        .cajon.color-acento-botones.p-3
+          p En Colombia la mayoría de los equipos eléctricos residenciales funcionan a 110 VAC, por lo tanto este sería el voltaje de salida del inversor a seleccionar. El último criterio de selección es la potencia nominal en vatios del inversor, la cual se elige volviendo al cuadro de cargas realizado en el numeral b, y eligiendo los equipos de mayor potencia que pueden estar encendidos al mismo tiempo. Para nuestro ejercicio, se puede asumir que en algún momento los equipos No. 1, 3, 4 y 5 pueden estar encendidos en algún momento al mismo tiempo. La suma de las potencias de cada uno de ellos da en total 600 vatios (W). De acuerdo con lo anterior el inversor a elegir debe tener una potencia mínima de 600 W.
 
 
 
