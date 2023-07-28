@@ -72,11 +72,54 @@
 
     p.mb-5(data-aos="fade-down") Los medidores de presión de tipo mecánico se denominan de esa forma porque su principio de funcionamiento involucra la interacción entre piezas mecánicas y no involucra elementos eléctricos o electrónicos para la medida de presión. 
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-07.svg', alt='') 
 
+    .row.justify-content-center.mb-4
+      .col-12(data-aos="fade-right")
+        p.text-center Dentro de los medidores de presión de tipo mecánico se encuentran tres tipos dependiendo de la tecnología usada:
+      .col-12(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Tipos de medidores de presión</i>
+        .tabla-a.color-acento-botones.mb-4.tabla-1
+          table
+            thead
+              tr
+                th Fuelle
+                th Diafragma o Membrana
+                th Tubo Bourdon
+            tbody
+              tr
+                td
+                  p Se asemeja a un acordeón, pero está fabricado con membranas metálicas en forma de espiral. Cuando se aumenta la presión al interior del fuelle, este se alarga en la dirección que indica la flecha.
+                  .img
+                    img(src='@/assets/curso/temas/tema1/tema1-55.svg', alt='', style="width:30%; display:inline-block")
+                td
+                  p Está compuesto por un disco delgado normalmente metálico que tiene una saliente. Similar al caso del fuelle, cuando se aumenta la presión al interior del diafragma, este se desplaza en la dirección que indica la flecha.
+                  .img 
+                    img(src='@/assets/curso/temas/tema1/tema1-56.svg', alt='', style="width:30%; display:inline-block")
+                td
+                  p Se compone de un tubo metálico que parece aplastado pero su interior es hueco. Cuando se aplica presión el tubo se desplaza en la dirección que indica la flecha. Este tipo de tecnología es la más utilizada en los manómetros de tipo mecánico.
+                  .img 
+                    img(src='@/assets/curso/temas/tema1/tema1-57.svg', alt='', style="width:30%; display:inline-block")
+              tr
+                td
+                  a.anexo.mb-4(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p #[b Nota.] García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 17. 
+                td 
+                  a.anexo.mb-4(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p #[b Nota.] García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 17.
+                td
+                  a.anexo.mb-4(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p #[b Nota.] García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 18.
+              
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -96,10 +139,40 @@
     p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los medidores de presión de tipo Bourdon: 
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-08.svg', alt='') 
-
+      .col-12.p-3.shadown(data-aos="fade-down") 
+        .row
+          .col-md-6.col-12
+            .row
+              .col-12
+                .titulo-sexto.color-acento-contenido
+                  p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Esquema de componentes del medidor de presión tipo Bourdon</i>
+              .col-md-6.col-12
+                p.text-center Esquema de componentes del medidor de presión tipo Bourdon.
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-59.png', alt='') 
+              .col-md-6.col-12
+                p.text-center Fotografía del medidor de presión tipo Bourdon. Fabricante WIKA.
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-58.png', alt='') 
+          .col-md-6.col-12
+            .row
+              .col-12
+                .titulo-sexto.color-acento-contenido
+                  p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Esquema de componentes del medidor de presión tipo membrana</i>
+              .col-md-6.col-12
+                p.text-center Esquema de componentes del medidor de presión tipo membrana.
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-60.png', alt='') 
+              .col-md-6.col-12
+                p.text-center Fotografía del medidor de presión tipo membrana. Fabricante WIKA.
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-61.png', alt='') 
+          .col-.col-12
+            a.anexo.mb-4(href="https://www.bloginstrumentacion.com/instrumentacion/funcionamiento-de-un-manmetro-mecnico/" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p Nota. WIKA. (2021). ¿Cómo funcionan los manómetros mecánicos?. 
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -123,8 +196,16 @@
           h5.text-center Sensores capacitivos
           p.text-center.mb-0 Utiliza una membrana con dos capas metálicas que conforman un condensador. El valor de la capacitancia del condensador varía en función de la deformación de las membranas.
       .col-12.col-md-6
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-09.svg', alt='')
+        .shadown.py-2.px-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Esquema de componentes del medidor de presión tipo electrónico</i>
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='')
+          a.anexo.mb-4(href="https://www.bloginstrumentacion.com/productos/como-funciona-un-transmisor-de-presion/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p Nota. WIKA. (2021). ¿Cómo funcionan los manómetros mecánicos?. Recuperado el 10 de septiembre de 2021. 
 
 
     Separador
@@ -177,27 +258,61 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right") 
       .col-12.col-md-6
-        .cajon.color-acento-contenido.p-3.mb-2
+        .cajon.color-acento-contenido.p-3.py-md-5.mb-2
           p.text-center.mb-0  Este instrumento se compone de un depósito fabricado en vidrio que contiene en su interior un elemento que al ser expuesto al calor se expande y sube al interior del depósito. Debido a la fragilidad de sus materiales y a la dificultad de lectura en condiciones ambientales industriales, este tipo de termómetros se utilizan normalmente en laboratorios con ambientes controlados. El elemento usado al interior del depósito de vidrio varía dependiendo del rango de medición del proceso que se desea medir. 
       .col-12.col-md-6
-        .cajon.color-acento-botones.p-3.mb-2
-          figure
-            img(src='@/assets/curso/temas/tema1/tema1-13.svg', alt='')
+        .cajon.color-acento-botones.px-3.pt-3.pb-1.mb-2
+          p En la siguiente tabla se muestran los elementos más usados para los termómetros de vidrio: 
+          .titulo-sexto.color-acento-contenido.mb-1
+            p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Elementos usados en los termómetros de vidrio</i>
+          .tabla-a.color-acento-botones.mb-4.tabla-3
+            table.mini-table(style="min-width:auto")
+              thead
+                tr
+                  th Elementos
+                  th Rango de medición 
+              tbody
+                tr.text-center
+                  td Mercurio
+                  td - 35 °C hasta + 280 °C
+                tr.text-center
+                  td Pentano
+                  td - 200 °C hasta + 20 °C
+                tr.text-center
+                  td Alcohol
+                  td - 110 °C hasta + 50°C
+                tr.text-center
+                  td Tolueno
+                  td - 70°C hasta + 100 °C
 
     p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los termómetros de vidrio: 
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-14.svg', alt='') 
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+      .col-12.mb-3.mb-lg-0(data-aos="fade-right")
+          p.text-center #[b Termómetros de Vidrio]
+      .col-12.col-md-6
+        p.text-center Termómetro de vidrio tipo industrial. Fabricante WIKA.
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='') 
+      .col-12.col-md-6
+        p.text-center Termómetro de vidrio tipo exterior. 
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='') 
 
     p.mb-3(data-aos="fade-down") El principio de medición de los termómetros bimetálicos se basa en la diferencia del coeficiente de dilatación existente entre dos metales diferentes (como por ejemplo latón, monel, acero, entre otros) los cuales se encuentran laminados conjuntamente. A este laminado se le denomina láminas bimetálicas y pueden tener formas rectas, curvas, espirales o hélices. La ventaja del termómetro bimetálico es que no posee muchas partes móviles lo cual hace que el mantenimiento de este instrumento sea mínimo y además son económicos.
-    A.mb-5(data-aos="fade-down") continuación, se muestran algunas características de los termómetros de vidrio:
+    p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características del termómetro Bimetálico:
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-15.svg', alt='') 
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+      .col-12.mb-3.mb-lg-0(data-aos="fade-right")
+          p.text-center #[b Termómetro Bimetálico]
+      .col-12.col-md-6.p-3
+        p.text-center Interior de termómetro bimetálico con muelle laminado helicoidal. 
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='') 
+      .col-12.col-md-6.p-3
+        p.text-center Termómetro bimetálico con conexión a proceso. Fabricante WIKA.
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-14.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -233,18 +348,54 @@
                     i.fas.fa-video
 
     p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los termómetros de principio resistivo: 
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-17.svg', alt='') 
+    
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+      .col-12.mb-3.mb-lg-0(data-aos="fade-right")
+          p.text-center #[b Termoresistencias]
+      .col-12.col-md-6.p-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0.text-small <b>Figura 4. </b> <i>Detalle constructivo de un sensor de temperatura Pt100 </i>
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='') 
+            figcaption Nota. https://www.tc-sa.es/images/reference/fig6_4.png 
+      .col-12.col-md-6.p-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0.text-small <b>Figura 5. </b> <i>Instrumento de medición de temperatura con sensor Pt100. Fabricante Klay instruments </i>
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='')
+            figcaption Nota. https://n9.cl/vqmx1
 
     p.mb-5(data-aos="fade-down") En el siguiente cuadro se muestran algunas características de las sondas RTD dependiendo del tipo de metal de construcción:
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-18.svg', alt='') 
+        .cajon.tarjeta--azul.p-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Características de las sondas RTD </i>
+          .tabla-a.color-acento-botones.mb-4.tabla-3
+            table
+              thead
+                tr
+                  th Elementos
+                  th Resistividad [μΩ/cm]
+                  th Intervalo útil de temperatura [°C]
+                  th Precisión [°C]
+              tbody
+                tr.text-center
+                  td Platino
+                  td 9,83
+                  td - 200 hasta + 950
+                  td 0,01
+                tr.text-center
+                  td Níquel
+                  td 6,38
+                  td - 150 a + 300
+                  td 0,5
+                tr.text-center
+                  td Cobre
+                  td 1,56
+                  td - 200 a + 120
+                  td 0,1
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -253,22 +404,78 @@
             i.fas.fa-play(style="color:#25FFFF")
             | #[strong C. Termopares]
 
-    p.mb-5(data-aos="fade-down") Este tipo de instrumentos de medición de temperatura basan su funcionamiento en el principio del efecto Seebeck por medio del cual se demostró que cuando se tienen dos hilos (normalmente en forma de alambre) de metales diferentes unidos en un solo extremo, y dicha unión se calienta o se enfría, se produce un voltaje que se puede correlacionar con el valor real de la temperatura. A diferencia de los termómetros bimetálicos, los termopares no están laminados entre sí, sino que se unen en un extremo con un proceso de soldadura. Existen diferentes tipos de termopar los cuales están clasificados por una letra y se diferencian en los tipo de metales utilizados y el rango de temperatura en que pueden ser usados. La selección del tipo de termopar a utilizar dependerá de las condiciones ambientales del proceso a medir. 
+    p.mb-4(data-aos="fade-down") Este tipo de instrumentos de medición de temperatura basan su funcionamiento en el principio del efecto Seebeck por medio del cual se demostró que cuando se tienen dos hilos (normalmente en forma de alambre) de metales diferentes unidos en un solo extremo, y dicha unión se calienta o se enfría, se produce un voltaje que se puede correlacionar con el valor real de la temperatura. A diferencia de los termómetros bimetálicos, los termopares no están laminados entre sí, sino que se unen en un extremo con un proceso de soldadura. Existen diferentes tipos de termopar los cuales están clasificados por una letra y se diferencian en los tipo de metales utilizados y el rango de temperatura en que pueden ser usados. La selección del tipo de termopar a utilizar dependerá de las condiciones ambientales del proceso a medir. 
+
+    .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down-right") 
+      .col-12
+        p A continuación, se muestran algunas características de los termómetros termopar: 
+
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+      .col-12.mb-3.mb-lg-0(data-aos="fade-right")
+          p.text-center #[b Termopar]
+      .col-12.col-md-6.p-3
+        .row.justify-content-center.align-items-center
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0.text-small <b>Figura 6. </b> <i>Corte transversal de termómetro tipo termopar con bulbo protector cerámico</i>
+          .col-md-10.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='') 
+          figcaption Nota. https://www.bloginstrumentacion.com/files/2014/08/termopar_ceramico-838x471.jpg 
+      .col-12.col-md-6.p-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0.text-small <b>Figura 7. </b> <i>Aislamiento conductor en el termopar</i>
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-21.png', alt='')
+            figcaption Nota. https://www.tc-sa.es/images/thermocouples/type1_large.png
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
+      .col-12
+        p El tipo de termopar más utilizado es el tipo K y el tipo J. En la siguiente tabla se muestran algunas características de los tipos de termopar: 
       .col-12.col-md-6
-        .cajon.color-acento-botones.p-3.mb-2
-          figure
-            img(src='@/assets/curso/temas/tema1/tema1-19.svg', alt='')
+        .cajon.tarjeta--azul.p-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Tipos y características del termopar</i>
+          .tabla-a.color-acento-botones.tabla-3
+            table(style="min-width:auto")
+              thead
+                tr.text-center.text-small
+                  th Tipo de Termopar
+                  th Rango de medida [°C]
+                  th Materiales
+              tbody 
+                tr.text-center.text-small
+                  td J
+                  td 0 hasta 750
+                  td Hierro - Constantan
+                tr.text-center.text-small
+                  td K
+                  td - 200 hasta 1250
+                  td Cromel - Alumel
+                tr.text-center.text-small
+                  td E
+                  td - 200 hasta 900
+                  td Cromel - Constantan
+                tr.text-center.text-small
+                  td T
+                  td - 250 hasta 350
+                  td Cobre - Constantan
       .col-12.col-md-6
         .cajon.color-acento-contenido.px-3.mb-2
           figure
             img(src='@/assets/curso/temas/tema1/tema1-20.svg', alt='')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
-      .col-12
-        .cajon.color-acento-botones.p-3.mb-2
-          p De forma similar a los termómetros de principio resistivo, los termopares requieren de un elemento electrónico adicional para detectar el cambio del valor del voltaje generado por el efecto Seebeck y convertirlo a un valor que se puede visualizar en una pantalla o se puede llevar la señal eléctrica a través de conductores eléctricos a un controlador de procesos. Adicionalmente este tipo de sensores se deben proteger con un bulbo de material metálico el cual estará expuesto directamente al proceso.
+      .col-12.col-md-6
+        .cajon.tarjeta--azul.p-5.mb-2
+          p De forma similar a los termómetros de principio resistivo, los termopares requieren de un elemento electrónico adicional para detectar el cambio del valor del voltaje generado por el efecto Seebeck y convertirlo a un valor que se puede visualizar en una pantalla o se puede llevar la señal eléctrica a través de conductores eléctricos a un controlador de procesos. Adicionalmente este tipo de sensores se deben proteger con un bulbo de material metálico el cual estará expuesto directamente al proceso, como se observa en la siguiente figura: 
+      .col-12.col-md-6
+        .shadown.p-3.row.justify-content-center.align-items-center
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0.text-small <b>Figura 8. </b> <i>Aislamiento conductor en el termopar</i>
+          .col-12.col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-18.png', alt='')
+          figcaption https://www.tc-sa.es/images/thermocouples/type1_large.png
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -284,14 +491,6 @@
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=1wwAQNECC9A" target="_blank")
                     span Ver video
                     i.fas.fa-video
-
-    p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los termómetros de principio resistivo: 
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-21.svg', alt='') 
-
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -434,9 +633,14 @@
     p.mb-4(data-aos="fade-down") En muchas aplicaciones para la medición de nivel en líquidos, se utilizan medidores de presión aprovechando el principio físico de la presión hidrostática en donde existe una relación entre la altura de la columna del fluido (para cualquier valor de densidad) y la presión de este en el fondo de dicha columna, independientemente de la forma del recipiente. En otras palabras, es posible calcular la altura de un líquido dentro de un recipiente si se mide la presión generada en el fondo y se conoce su densidad.
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-12.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-29.svg', alt='') 
+      .col-12.col-md-10.mb-5.mb-lg-0(data-aos="fade-right")
+        .tarjeta.tarjeta--azul.p-3
+          p.text-center #[b La relación matemática que ilustra el principio de la presión hidrostática es:]
+          .shadown.p-3(style="background-color:#FFFFFF")
+            p.mb-0.text-center P = ρ ×g × h   
+            p.mb-0.text-center Donde:
+            p.mb-0 P: presión hidrostática (Pa), ρ: densidad del fluido (kg/m3),g: aceleración de la gravedad ( m/s2),
+            p.mb-0 h: altura de la columna vertical de fluido por encima del punto de medida de presión (m).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -511,8 +715,13 @@
     Separador
     #t_1_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.4 Medición de radiación solar (piranómetros)
- 
-    p.mb-4(data-aos="fade-down") Para llevar a cabo la medición de la radiación solar incidente sobre la superficie de la Tierra, se hace uso del piranómetro, el cual consiste en un sensor diseñado para medir la densidad del flujo de radiación solar en un campo de 180 grados. A continuación, encontrará más información al respecto: 
+
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-62.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Para llevar a cabo la medición de la radiación solar incidente sobre la superficie de la Tierra, se hace uso del piranómetro, el cual consiste en un sensor diseñado para medir la densidad del flujo de radiación solar en un campo de 180 grados. A continuación, encontrará más información al respecto: 
 
     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down-left")
       SlyderA(tipo="b")
@@ -559,12 +768,12 @@
           .col-md-6.mb-4.mb-md-0
             p La diferencia de temperatura produce una diferencia de voltaje entre dos terminales y este es convertido electrónicamente a los valores de radiación global obtenidos. 
 
-    p.mb-4(data-aos="fade-down") Algunas imágenes de piranómetros se muestran a continuación:
+    //- p.mb-4(data-aos="fade-down") Algunas imágenes de piranómetros se muestran a continuación:
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-12.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-41.png', alt='') 
+    //- .row.mb-5.align-self-stretch.justify-content-center.align-items-center
+    //-   .col-12.col-md-12.mb-5.mb-lg-0(data-aos="fade-right")
+    //-     figure
+    //-       img(src='@/assets/curso/temas/tema1/tema1-41.png', alt='') 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -594,13 +803,16 @@
             i.fas.fa-play(style="color:#25FFFF")
             | #[strong A. Medición de velocidad]
 
-    p.mb-3(data-aos="fade-down") El instrumento de medición utilizado para este fin se denomina anemómetro y el más utilizado es el anemómetro de rotación, que a subes puede ser de tipo cazoletas o de tipo hélice. Ambos funcionan con el principio en que la velocidad de rotación es proporcional a la velocidad del viento. Dicha rotación puede medirse contando mecánicamente el número de rotaciones por medio de un sensor óptico o a través de un pequeño motor eléctrico que actúa como generador. Los anemómetros de tres cazoletas semicónicas y semiesféricas son los más utilizados, y que permiten medir las componentes horizontales del viento.
-    p.mb-5(data-aos="fade-down") Algunas imágenes de anemómetros se muestran a continuación: 
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-42.svg', alt='') 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-md-6(data-aos="fade-right")
+        p.mb-3(data-aos="fade-down") El instrumento de medición utilizado para este fin se denomina anemómetro y el más utilizado es el anemómetro de rotación, que a subes puede ser de tipo cazoletas o de tipo hélice. Ambos funcionan con el principio en que la velocidad de rotación es proporcional a la velocidad del viento. Dicha rotación puede medirse contando mecánicamente el número de rotaciones por medio de un sensor óptico o a través de un pequeño motor eléctrico que actúa como generador. Los anemómetros de tres cazoletas semicónicas y semiesféricas son los más utilizados, y que permiten medir las componentes horizontales del viento.
+      .col-12.col-md-6(data-aos="fade-right")
+        .row.justify-content-center.align-items-center.shadown.p-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0.text-small <b>Figura 9. </b> <i>Anemómetro</i>
+          .col-12.col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-42.png', alt='') 
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -608,13 +820,17 @@
           li.mb-0
             i.fas.fa-play(style="color:#25FFFF")
             | #[strong B. Medición de dirección del viento]
-    p.mb-3(data-aos="fade-down") El instrumento empleado generalmente para medir la dirección del viento se denomina veleta, el cual consiste en un dispositivo instalado sobre un eje vertical y de giro libre, de tal modo que puede moverse cuando el viento cambia de dirección. En la mayoría de los instrumentos, el movimiento de la veleta está amortiguado para prevenir cambios demasiado rápidos o bruscos de la dirección del viento.
-    p.mb-5(data-aos="fade-down") Algunas imágenes de anemómetros se muestran a continuación: 
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-43.svg', alt='') 
+            
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-md-6(data-aos="fade-right")
+        p.mb-3(data-aos="fade-down") El instrumento empleado generalmente para medir la dirección del viento se denomina veleta, el cual consiste en un dispositivo instalado sobre un eje vertical y de giro libre, de tal modo que puede moverse cuando el viento cambia de dirección. En la mayoría de los instrumentos, el movimiento de la veleta está amortiguado para prevenir cambios demasiado rápidos o bruscos de la dirección del viento.
+      .col-12.col-md-6(data-aos="fade-right")
+        .row.justify-content-center.align-items-center.shadown.p-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0.text-small <b>Figura 10. </b> <i>Imagen real de una veleta</i>
+          .col-12.col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-43.png', alt='') 
 
     Separador
     #t_1_6.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -637,6 +853,7 @@
             p #[strong Rango de Medida:] corresponde al conjunto de valores comprendidos entre el valor mínimo y el valor máximo de medida del instrumento. Al valor mínimo de la variable se le conoce como LRV y al valor máximo de la variable se le conoce como URV.
             p #[strong Alcance o Spam:] es la diferencia algebraica entre los valores del URV y el LRV.
             p #[strong Error:] se define como la diferencia en porcentaje entre el valor medido por el instrumento y el valor real de la variable medida. Si se desea conocer el valor del error en una medida, se utiliza la siguiente fórmula:
+            img(src='@/assets/curso/temas/tema1/tema1-63.svg', alt='')
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/tema1-45.png', alt='')
@@ -725,11 +942,20 @@
                   p El servicio de calibración también incluye el ajuste (cuando es posible) o corrección de los errores de acuerdo con la manipulación de algunos elementos que tiene internamente el instrumento para tal fin.
 
     p.mb-4(data-aos="fade-down") A continuación, se muestran algunos equipos de calibración
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/tema1-54.svg', alt='') 
+          
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+      .col-12.col-md-6
+        p.text-center Bloque seco marca WIKA. Utilizado para calibración de instrumentos de medición de temperatura.
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-29.png', alt='') 
+      .col-12.col-md-6
+        p.text-center Comprobador de peso muerto marca Fluke. Utilizado para calibración de instrumentos de medición de presión.
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-54.png', alt='') 
 
     p.mb-4(data-aos="fade-down") El resultado del proceso de calibración es un certificado emitido por el laboratorio acreditado para tal fin, donde se muestran los puntos de trabajo del medidor analizado y los valores de la desviación medido.
     p.mb-4(data-aos="fade-down") Los datos básicos que debe contener un certificado de calibración son los siguientes:
