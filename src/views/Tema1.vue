@@ -989,7 +989,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small En el siguiente enlace, se encuentra el documento ejemplo de un certificado de calibración para un medidor de temperatura: 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_7_Ejemplo Certificado de Calibracion.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_7_Ejemplo_Certificado_de_Calibracion.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

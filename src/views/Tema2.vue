@@ -86,16 +86,18 @@
       h2 2.1 Potencial Energético de la Energía solar
 
     p.mb-4(data-aos="fade-down") Revisar el potencial energético de la energía solar.
-    p.mb-4(data-aos="fade-down") #[strong Potencial Energético de la Energía solar]
+    p.mb-4(data-aos="fade-down") #[strong Potencial Energético de la Energía solar.]
     
     p.mb-4(data-aos="fade-down") El aprovechamiento de la energía solar generalmente se da en dos aplicaciones: energía solar fotovoltaica y energía solar térmica. A través de la aplicación solar fotovoltaica se aprovecha la energía del sol para generar electricidad, y por medio de las aplicaciones solares térmicas es posible elevar la temperatura del agua u otros fluidos de tal forma que se pueda aprovechar esa temperatura en diferentes usos de la energía.
 
-    p.mb-4(data-aos="fade-down") De acuerdo con IDEAM, UPME (2017), la energía que proviene del sol llega a la tierra en forma de radiación solar, la cual se define como la energía emitida por el sol, que se propaga en todas las direcciones a través del espacio mediante ondas electromagnéticas y es generada en las reacciones del hidrógeno en el núcleo del sol por fusión nuclear. Este tipo de energía determina la dinámica de los procesos atmosféricos y el clima. 
-    p.mb-4(data-aos="fade-down") Además de ser fuente de energía, la radiación solar brinda para los seres vivos los siguientes efectos fisiológicos positivos: 
-
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-left")
-      .col-12.mb-4.mb-md-0
-        ul.lista-ul.mb-2
+      .col-12.col-md-4.col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-20.png', alt='')
+      .col-12.col-md-8.col-lg-9
+        p.mb-4(data-aos="fade-down") De acuerdo con IDEAM, UPME (2017), la energía que proviene del sol llega a la tierra en forma de radiación solar, la cual se define como la energía emitida por el sol, que se propaga en todas las direcciones a través del espacio mediante ondas electromagnéticas y es generada en las reacciones del hidrógeno en el núcleo del sol por fusión nuclear. Este tipo de energía determina la dinámica de los procesos atmosféricos y el clima. 
+        p.mb-4(data-aos="fade-down") Además de ser fuente de energía, la radiación solar brinda para los seres vivos los siguientes efectos fisiológicos positivos: 
+        ul.lista-ul.mb-2.px-3
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
             | Estimula la síntesis de vitamina D, que previene el raquitismo y la osteoporosis.
@@ -123,13 +125,21 @@
 
     p.mb-4(data-aos="fade-down") Para la evaluación del potencial energético de la radiación solar, existen dos variables fundamentales:
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-12.mb-5(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/tema2-06.svg', alt='') 
-      .col-12.col-md-12(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/tema2-07.svg', alt='') 
+    .row.align-self-stretch.justify-content-center.align-items-center
+      .col-12(data-aos="fade-down")
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/tema2-06.svg' alt='AvatarTop' style="width:60%")
+          .tarjeta.color-acento-contenido
+            .p-4
+              p.mb-0 #[b Irradiancia global] sobre una superficie horizontal: se trata de la medida del total de la radiación directa y difusa que recibe un área específica. Es decir, equivale a nombrar la potencia en el área eléctrica. La unidad de medida más utilizada a nivel mundial es el KW/m².
+      .col-12(data-aos="fade-down")
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/tema2-07.svg' alt='AvatarTop' style="width:60%")
+          .tarjeta.color-acento-contenido
+            .p-4
+              p.mb-0 #[b Irradiación global] sobre una superficie horizontal: es la medida de la radiación directa y difusa que recibe un área específica, por unidad de tiempo. Corresponde a nombrar la energía en el área eléctrica. La unidad de medida más utilizada a nivel mundial es el KWh/m². 
 
     p.mb-4(data-aos="fade-down") Aunque sus nombres son parecidos, no se debe confundir los valores de la irradiancia con los valores de la irradiación. Haciendo un ejercicio mental con el equivalente eléctrico (físicamente no tienen equivalencia es solo para una mejor interpretación de los conceptos), la irradiancia puede asemejarse a la potencia eléctrica en cualquier dispositivo como por ejemplo un bombillo LED de 10 Vatios (10 W).
 
@@ -146,15 +156,15 @@
         p Si se desea conocer la energía consumida (equivalente a la Irradiación) por el bombillo se debe multiplicar la potencia (en este caso 10 W) por el número de horas que se mantiene encendido. Si el bombillo se enciende durante 8 horas al día, la energía consumida por el bombillo será de 80 vatios hora (80 Wh) al día [𝑊ℎ/𝑑í𝑎]. Ahora bien, si se quiere conocer la energía consumida por el bombillo durante todo el año, se debe multiplicar la potencia por el número de horas que se mantiene encendido en el año que pueden ser 2920 horas al año, con lo cual la energía total anual consumida por el bombillo es de 29.200 vatios hora [𝑊ℎ/𝑎ñ𝑜].   
       .tarjeta.tarjeta--azul.p-4(titulo="Valor de referencia")
         h4 Valor de referencia 
-        p En la práctica, el valor que se toma como referencia para la evaluación inicial del potencial energético del sol es la irradiación global diaria sobre una superficie horizontal. La razón es que esta variable indica directamente la energía que se puede aprovechar del sol y la escala de tiempo diaria permite de forma rápida el cálculo de las Horas Solares Pico (HSP) que corresponden a las horas al día en que la irradiación global diaria sobre una superficie horizontal hipotéticamente se mantiene en un valor constante de 1000 Wh/m2 o 1 kWh/m2
+        p En la práctica, el valor que se toma como referencia para la evaluación inicial del potencial energético del sol es la irradiación global diaria sobre una superficie horizontal. La razón es que esta variable indica directamente la energía que se puede aprovechar del sol y la escala de tiempo diaria permite de forma rápida el cálculo de las Horas Solares Pico (HSP) que corresponden a las horas al día en que la irradiación global diaria sobre una superficie horizontal hipotéticamente se mantiene en un valor constante de 1000 Wh/m#[sup 2] o 1 kWh/m#[sup 2]. 
       .tarjeta.tarjeta--azul.p-4(titulo="Cálculo de generación de electricidad")
         h4 Cálculo de generación de electricidad 
-        p Esta variable es muy útil para los cálculos de generación de electricidad con tecnología solar fotovoltaica. Teniendo en cuenta lo anterior, las Horas Solares Pico (HSP) se calcula dividiendo el valor de la irradiación global diaria sobre una superficie horizontal entre 1 𝑘𝑊ℎ/𝑚2.
+        p Esta variable es muy útil para los cálculos de generación de electricidad con tecnología solar fotovoltaica. Teniendo en cuenta lo anterior, las Horas Solares Pico (HSP) se calcula dividiendo el valor de la irradiación global diaria sobre una superficie horizontal entre 1 𝑘𝑊ℎ/𝑚#[sup 2].
       .tarjeta.tarjeta--azul.p-4(titulo="Contexto Nacional del Potencial Energético de la Energía Solar")
         h4 Contexto Nacional del Potencial Energético de la Energía Solar 
         p En Colombia se han realizado varios estudios donde se recopila la información de diferentes estaciones meteorológicas públicas y privadas con el fin de determinar los valores promedio para el uso en estudios de evaluación de potencial energético. En Colombia el IDEAM es la entidad oficial encargada de hacer el seguimiento a la radiación y cuenta con la red más grande de estaciones y de mayor cobertura. 
-        p De acuerdo con UPME (2015) el país cuenta con una irradiación global horizontal diaria promedio de 4,5 kWh / m2 la cual está por encima del promedio mundial de 3,9 kWh / m2.
-        p Adicionalmente el valor promedio presente en el país es superior al promedio  presente en Alemania (3,0 kWh / m2), país líder a nivel mundial en la implementación de la energía solar Fotovoltaica. 
+        p De acuerdo con UPME (2015) el país cuenta con una irradiación global horizontal diaria promedio de 4,5 kWh / m#[sup 2] la cual está por encima del promedio mundial de 3,9 kWh / m#[sup 2].
+        p Adicionalmente el valor promedio presente en el país es superior al promedio  presente en Alemania (3,0 kWh / m#[sup 2]), país líder a nivel mundial en la implementación de la energía solar Fotovoltaica. 
       
     p.mb-4(data-aos="fade-down") Para la determinación de la irradiación global horizontal diaria en alguna zona específica del país, se tienen varias opciones dentro de las cuales se destacan las siguientes:
 
@@ -166,6 +176,19 @@
             | #[strong A. Atlas Solar de Radiación Solar, Ultravioleta y Ozono de Colombia (opción 1):]
 
     p.mb-4(data-aos="fade-down") Según IDEAM, UPME. (2017) el Atlas de Radiación Solar, Ultravioleta y Ozono de Colombia es una herramienta fundamental para la valoración de la disponibilidad de la energía solar en el territorio nacional y para conocer el comportamiento de la radiación ultravioleta, el ozono y sus relaciones, que contribuyen a entender sus efectos en la salud humana.  El atlas contiene un conjunto de mapas climatológicos en donde se representan la distribución promedio mensual y anual de las siguientes variables: irradiación solar global horizontal, brillo solar, número de días al mes sin brillo solar, radiación ultravioleta y la columna total de ozono, acompañadas de análisis regionales del comportamiento promedio anual y a lo largo del año de estas variables. También contiene datos teóricos acerca del comportamiento del sol, información acerca de las fuentes de información e instrumentos de medición, y anexos con información adicional. 
+
+    //- .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-left")
+    //-   .col-12.col-md-6.mb-4.mb-md-0
+    //-     figure
+    //-       img(src='@/assets/curso/temas/tema2/tema2-21.png', alt='')
+    //-   .col-12.col-md-6.mb-4.mb-md-0
+    //-     .cajon.tarjeta--azul.p-3
+    //-       p #[b Existen dos formas para consultar la documentación del atlas.] Una de ellas es utilizar la herramienta en línea desarrollada por el IDEAM accediendo al siguiente enlace: #[a(href="http://atlas.ideam.gov.co/visorAtlasRadiacion.html" target="_blank") #[b http://atlas.ideam.gov.co/visorAtlasRadiacion.html]] #[b y descargando los mapas y tablas que allí reposan]. En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
+    //-       a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+    //-         .anexo__icono
+    //-           img(src="@/assets/template/icono-pdf.svg")
+    //-         .anexo__texto
+    //-           p #[b Anexo.] Documentación del atlas
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-left")
       .col-12.mb-4.mb-md-0
@@ -184,7 +207,7 @@
     p.mb-4(data-aos="fade-down-left") #[strong ¿Qué información y cómo se determina el valor de la irradiación global horizontal?] 
 
     h5.mb-3(data-aos="fade-down-right") A través de los mapas: 
-    p.mb-5(data-aos="fade-down-right") Una vez se tenga descargado el Mapa nacional multianual de irradiación global horizontal medio diario anual, se debe ubicar las convenciones en dicho mapa donde aparecerá lo siguiente:
+    p.mb-4(data-aos="fade-down-right") Una vez se tenga descargado el Mapa nacional multianual de irradiación global horizontal medio diario anual, se debe ubicar las convenciones en dicho mapa donde aparecerá lo siguiente:
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
@@ -193,10 +216,10 @@
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-11.mb-5.mb-lg-0.cajon.tarjeta--azul.py-3(data-aos="fade-right")
-        p.mb-3(data-aos="fade-down-right") En la parte Leyenda, se encuentra una barra de colores con los rangos de valores de la irradiación global horizontal. Cada color corresponde a un rango específico. Luego se procede a ubicar la zona de interés dentro del mapa observando el color que corresponda. A manera de ejemplo se tiene la siguiente imagen donde aparecen indicadas las ciudades de Cartagena, Barranquilla y Sincelejo. Se observa que las áreas donde están ubicadas las ciudades de Barranquilla y Cartagena tienen color naranja mientras que el área de la ciudad de Sincelejo tiene un color amarillo oscuro. Regresando a las convenciones, se observa que el color naranja corresponde a un rango de irradiación global horizontal diaria entre 5 y 5,5 (kWh )/m2, mientras que el color amarillo oscuro corresponde a un rango de irradiación global horizontal diaria entre 4,5 y 5 (kWh )/m2. 
+        p.mb-3(data-aos="fade-down-right") En la parte Leyenda, se encuentra una barra de colores con los rangos de valores de la irradiación global horizontal. Cada color corresponde a un rango específico. Luego se procede a ubicar la zona de interés dentro del mapa observando el color que corresponda. A manera de ejemplo se tiene la siguiente imagen donde aparecen indicadas las ciudades de Cartagena, Barranquilla y Sincelejo. Se observa que las áreas donde están ubicadas las ciudades de Barranquilla y Cartagena tienen color naranja mientras que el área de la ciudad de Sincelejo tiene un color amarillo oscuro. Regresando a las convenciones, se observa que el color naranja corresponde a un rango de irradiación global horizontal diaria entre 5 y 5,5 (kWh )/m#[sup 2], mientras que el color amarillo oscuro corresponde a un rango de irradiación global horizontal diaria entre 4,5 y 5 (kWh )/m#[sup 2]. 
         p.mb-3(data-aos="fade-down-right") Para efectos de diseño de un sistema de generación con energía solar, normalmente se toma el valor más pequeño del rango.
 
-    p.mb-3(data-aos="fade-down-right") Teniendo en cuenta los datos anteriores, se puede afirmar que para la ciudad de Sincelejo el valor de la irradiación global horizontal promedio diario durante el año es de 4,5 kWh/m2 díatomando el valor mínimo del rango. Si se requiere calcular las Horas Solares Pico (HSP) en esa ciudad, se divide el valor anterior por 1kWh/m2, lo cual da como resultado que las horas solares promedio anual diario es de 4,5 horas. Si realiza este mismo ejercicio para las demás ciudades, se concluye que el potencial de generación con energía solar es mayor en las ciudades de Barranquilla y Cartagena que en Sincelejo. 
+    p.mb-3(data-aos="fade-down-right") Teniendo en cuenta los datos anteriores, se puede afirmar que para la ciudad de Sincelejo el valor de la irradiación global horizontal promedio diario durante el año es de 4,5 kWh/m#[sup 2] díatomando el valor mínimo del rango. Si se requiere calcular las Horas Solares Pico (HSP) en esa ciudad, se divide el valor anterior por 1kWh/m#[sup 2], lo cual da como resultado que las horas solares promedio anual diario es de 4,5 horas. Si realiza este mismo ejercicio para las demás ciudades, se concluye que el potencial de generación con energía solar es mayor en las ciudades de Barranquilla y Cartagena que en Sincelejo. 
 
     h5.mb-3(data-aos="fade-down-right") A través de las tablas de datos: 
     p.mb-3(data-aos="fade-down-right") Las tablas de datos son una herramienta útil si se requiere un valor determinado y no un rango de valores para la irradiación global horizontal diaria. Se debe tener en cuenta que esta información se tiene solo para algunas ciudades, de tal forma que si se requiere un valor determinado para una zona donde no existe tabla, se debe recurrir al método con el mapa o a otras herramientas de información climática que más adelante se describirán. Cada una de las tablas de datos poseen la siguiente información: ciudad de referencia, estación meteorológica utilizada, horas del día (desde las 0 hasta las 24 horas), mes del año, valor promedio horario de la irradiación global horizontal, valor promedio diario de la irradiación global horizontal.
@@ -222,29 +245,32 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | NASA Power (https://power.larc.nasa.gov/data-access-viewer/). Es gratuita.
+            | NASA Power #[a.link-azul(href="https://power.larc.nasa.gov/data-access-viewer/" target="_blank") (https://power.larc.nasa.gov/data-access-viewer/)]. Es gratuita.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | SOLARGIS (https://solargis.com/) Se debe pagar una suscripción, sin embargo algunos mapas son gratis.
+            | SOLARGIS #[a.link-azul(href="https://solargis.com/" target="_blank") (https://solargis.com/)]. Se debe pagar una suscripción, sin embargo algunos mapas son gratis.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | Meteonorm (https://meteonorm.com/en/). Se debe pagar una suscripción.
+            | Meteonorm #[a.link-azul(href="(https://meteonorm.com/en/" target="_blank") (https://meteonorm.com/en/)]. Se debe pagar una suscripción.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | PVGIS (https://ec.europa.eu/jrc/en/pvgis) Es gratuita.
+            | PVGIS #[a.link-azul(href="https://ec.europa.eu/jrc/en/pvgis" target="_blank") (https://ec.europa.eu/jrc/en/pvgis)]. Es gratuita.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | Global Solar Atlas (https://globalsolaratlas.info). Es gratuita y se apoya en los datos de SOLARGIS. Está diseñada también para calcular el potencial de generación con tecnología fotovoltaica.
+            | Global Solar Atlas #[a.link-azul(href="https://globalsolaratlas.info" target="_blank") (https://globalsolaratlas.info)]. Es gratuita y se apoya en los datos de SOLARGIS. Está diseñada también para calcular el potencial de generación con tecnología fotovoltaica.
 
     p.mb-3(data-aos="fade-down-right") Este tipo de bases de datos utilizan una interfaz gráfica que permite ubicar la zona donde se requiere evaluar el potencial energético solar a través de la selección con un cursor en un mapa o a través de las coordenadas geográficas. Adicionalmente permite ver de forma gráfica la información y en la mayoría de los casos permite descargar los datos en archivos planos para su manipulación y procesamiento en otras aplicaciones. 
     p.mb-5(data-aos="fade-down-right") En la siguiente figura se puede observar la pantalla de la base de datos Global Solar Atlas cuando el cursor del mapa de ubica en la ciudad de Barranquilla:
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0.text-small <b>Figura 11. </b> <i>Pantalla de la base de datos Global Solar Atlas</i>
         figure
           img(src='@/assets/curso/temas/tema2/tema2-10.png', alt='') 
+          figcaption Imagen de pantalla del resultado de localizar a la ciudad de Barranquilla en la base de datos Global Solar Atlas. Referencia bibliográfica: World Bank Group, ESMAP, SOLARGIS. (2021). Global Solar Atlas. 
 
-    p.mb-5(data-aos="fade-down-right") Como se puede observar en la figura anterior, el valor de la irradiación global horizontal promedio anual diaria (en inglés Global Horizontal Irradiation GHI) es de 5,689 kWh/m2 día.
+    p.mb-5(data-aos="fade-down-right") Como se puede observar en la figura anterior, el valor de la irradiación global horizontal promedio anual diaria (en inglés Global Horizontal Irradiation GHI) es de 5,689 kWh/m#[sup 2] día.
 
     Separador
     #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -263,29 +289,38 @@
     p.mb-5(data-aos="fade-down-right") En la determinación del potencial eólico de una zona están determinados por la siguiente ecuación:
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/tema2-12.svg', alt='') 
+      .col-12.col-md-11.mb-5.mb-lg-0.shadown.p-3(data-aos="fade-right")
+        p.text-center P = 1/2 * A * p * V#[sup 3]
+        p donde:
+        p.mb-0 P: producción [W].
+        p.mb-0 A: área que cubre el rotor del generador eólico [m#[sup 2]].
+        p.mb-0 p: densidad del aire [kg/m#[sup 3]].
+        p V: velocidad del viento [m/s].
+      //.col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+      //  figure
+      //    img(src='@/assets/curso/temas/tema2/tema2-12.svg', alt='') 
 
     p.mb-5(data-aos="fade-down-right") Con el fin de normalizar los modelos para la identificación de las zonas donde existe mayor potencial para el uso de la energía eólica, se determina un concepto denominado Densidad de Potencia, definido como la división de la Producción entre el área (P/A), lo cual modifica la ecuación anterior de la siguiente manera:
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-9.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/tema2-13.svg', alt='') 
+      .col-12.col-md-9.mb-5.mb-lg-0.shadown.p-3(data-aos="fade-right")
+        p.text-center P/A = 1/2 * p * V#[sup 3][W/m#[sup 2]]
+      //.col-12.col-md-9.mb-5.mb-lg-0(data-aos="fade-right")
+      //  figure
+      //    img(src='@/assets/curso/temas/tema2/tema2-13.svg', alt='') 
 
-    p.mb-5(data-aos="fade-down-right") Las unidades de la densidad de potencia se expresan en W/m2. Si se desea conocer la densidad de energía. 
+    p.mb-5(data-aos="fade-down-right") Las unidades de la densidad de potencia se expresan en W/m#[sup 2]. Si se desea conocer la densidad de energía. 
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/tema2-14.png', alt='') 
       .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right")
-        p La densidad del aire es un factor determinante en las mediciones, porque es diferente para cada sitio y algunas veces solo para casos prácticos se puede asumir con un valor de 1 Kg/m3. Debido a esta relación, pequeñas variaciones en la velocidad del viento representan grandes cambios en el contenido de energía. 
+        p La densidad del aire es un factor determinante en las mediciones, porque es diferente para cada sitio y algunas veces solo para casos prácticos se puede asumir con un valor de 1 Kg/m#[sup 3]. Debido a esta relación, pequeñas variaciones en la velocidad del viento representan grandes cambios en el contenido de energía. 
         .cajon.color-acento-contenido.p-3
           p En lugares donde los valores de la velocidad del viento son bajos, se obtienen menores valores de densidad de potencia, mientras que donde los valores promedio del viento son mayores, la densidad de potencia y por lo tanto la densidad de energía, crece de forma potencialmente al cubo de dicha velocidad.
 
-    p.mb-5(data-aos="fade-down-right") Por lo general, los vientos con intensidades iguales o superiores a 5 m/s equivalentes a (P/A) de 63 W/m2 proporcionan una buena alternativa para uso de energía en pequeños proyectos eólicos instalados cerca de superficie (entre 5 y 10 metros de altura). Sin embargo, para proyectos de gran envergadura como parques eólicos, se requiere hacer mediciones para alturas superiores, en donde se encuentran valores de velocidad del viento superiores, y en donde se puedan instalar aerogeneradores con alturas que permitan aprovechar al máximo las condiciones ambientales del lugar.
+    p.mb-5(data-aos="fade-down-right") Por lo general, los vientos con intensidades iguales o superiores a 5 m/s equivalentes a (P/A) de 63 W/m#[sup 2] proporcionan una buena alternativa para uso de energía en pequeños proyectos eólicos instalados cerca de superficie (entre 5 y 10 metros de altura). Sin embargo, para proyectos de gran envergadura como parques eólicos, se requiere hacer mediciones para alturas superiores, en donde se encuentran valores de velocidad del viento superiores, y en donde se puedan instalar aerogeneradores con alturas que permitan aprovechar al máximo las condiciones ambientales del lugar.
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right")
@@ -344,20 +379,22 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | NASA Power (https://power.larc.nasa.gov/data-access-viewer/). Es gratuita.
+            | NASA Power #[a.link-azul(href="https://power.larc.nasa.gov/data-access-viewer/" target="_blank") (https://power.larc.nasa.gov/data-access-viewer/)]. Es gratuita.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | Meteonorm (https://meteonorm.com/en/). Se debe pagar una suscripción.
+            | Meteonorm #[a.link-azul(href="https://meteonorm.com/en/" target="_blank") (https://meteonorm.com/en/)]. Se debe pagar una suscripción.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | Global Wind Atlas (https://globalwindatlas.info/ ). Es gratuita. Está diseñada también para calcular el potencial de generación con algunas torres eólicas. Provee información del viento para alturas de 10, 50, 100, 150 y 200 metros.
+            | Global Wind Atlas #[a.link-azul(href="https://globalwindatlas.info/" target="_blank") (https://globalwindatlas.info/)]. Es gratuita. Está diseñada también para calcular el potencial de generación con algunas torres eólicas. Provee información del viento para alturas de 10, 50, 100, 150 y 200 metros.
 
     p.mb-4(data-aos="fade-down-right") Este tipo de bases de datos utilizan una interfaz gráfica que permite ubicar la zona donde se requiere evaluar el potencial energético del viento a través de la selección con un cursor en un mapa o a través de coordenadas geográficas. Adicionalmente permite ver de forma gráfica la información y en la mayoría de los casos permite descargar los datos en archivos planos para su manipulación y procesamiento en otras aplicaciones. 
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-12.mb-5.mb-lg-0(data-aos="fade-right")
+      .col-12.col-md-11.col-lg-10.mb-5.mb-lg-0.shadown.p-4(data-aos="fade-right")
+        p En la siguiente imagen se puede observar la pantalla de la base de datos Global Wind Atlas cuando el cursor del mapa se ubica en una zona del departamento de la Guajira a una altura de 150 metros:
         figure
           img(src='@/assets/curso/temas/tema2/tema2-16.png', alt='') 
+          figcaption Imagen de pantalla del resultado de localizar a la ciudad de Barranquilla en la base de datos Global Wind Atlas. Referencia bibliográfica: World Bank Group, ESMAP, VORTEX. (2021). Wind Solar Atlas. https://globalwindatlas.info/
 
 
     Separador
@@ -373,7 +410,8 @@
           img(src='@/assets/curso/temas/tema2/tema2-17.png', alt='') 
       .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
         .cajon.color-acento-contenido.p-3
-          p Nuestro país no es ajeno a esta situación, y desde el año 2001 se viene trabajando en estrategias para el desarrollo de las tecnologías de generación con fuentes renovables no convencionales como la energía solar, eólica, biomasa, y recientemente el hidrógeno y la energía geotérmica. https://www.shutterstock.com/es/image-photo/businessman-draw-growth-graph-progress-business-1504342112
+          p Nuestro país no es ajeno a esta situación, y desde el año 2001 se viene trabajando en estrategias para el desarrollo de las tecnologías de generación con fuentes renovables no convencionales como la energía solar, eólica, biomasa, y recientemente el hidrógeno y la energía geotérmica. 
+          // https://www.shutterstock.com/es/image-photo/businessman-draw-growth-graph-progress-business-1504342112
 
     p.mb-3(data-aos="fade-down-right") Cabe recordar que uno de los principales impactos ambientales positivos de este tipo de energías es la generación de energía con cero emisiones de GEI, con lo cual es posible cumplir las metas de reducción de emisiones propuestas a nivel país.
     p.mb-3(data-aos="fade-down-right") Según UPME (2020) “El reto de los próximos 30 años será abastecer una demanda creciente de energía utilizando menos combustibles fósiles”; adicionalmente determina que la generación distribuida de electricidad con sistemas solares fotovoltaicos permitirá mejorar la competitividad del mercado eléctrico colombiano y dará mejor protagonismo al usuario para el cuidado y uso responsable de los recursos energéticos. 

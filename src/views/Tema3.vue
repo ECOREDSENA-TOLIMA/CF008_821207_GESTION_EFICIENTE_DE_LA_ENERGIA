@@ -20,7 +20,7 @@
         p Las fases para el dimensionamiento de un sistema de generación con energía renovable varían en su complejidad y tiempo de desarrollo dependiendo de la magnitud de la energía que se pretende generar. 
 
     p.mb-3(data-aos="fade-down-right") En este sentido el proceso de dimensionamiento de energía eléctrica para un hogar residencial puede ser en algunos aspectos diferentes a un sistema de generación para el sistema interconectado nacional.
-    p.mb-5(data-aos="fade-down-right") En este capítulo se mostrarán de manera general los pasos para el dimensionamiento de uno de los sistemas de generación con energía renovable con mayor crecimiento en el país: Los Sistemas Fotovoltaicos.
+    p.mb-5(data-aos="fade-down-right") En este capítulo se mostrarán de manera general los pasos para el dimensionamiento de uno de los sistemas de generación con energía renovable con mayor crecimiento en el país: Los sistemas fotovoltaicos.
 
     Separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -192,15 +192,60 @@
             i.fas.fa-play(style="color:#AD84FF")
             | #[strong A.Demanda calculada: ]
 
-    p.mb-3 Se denomina calculada porque resulta del cálculo del consumo de electricidad para cada uno de los equipos eléctricos descritos en el cuadro de cargas del lugar. La energía eléctrica se obtiene de la multiplicación de la potencia en vatios (W) de cada equipo por las horas al día de funcionamiento, obteniendo el valor en vatios-hora (Wh) que posteriormente se pueden convertir en unidades de kilovatio-hora (kWh).
-    p.mb-5 A continuación, se muestra un ejemplo de la demanda de energía eléctrica calculada para una vivienda. La potencia de cada equipo eléctrico se puede obtener observando la placa de datos que viene en cada uno de ellos, también en el manual de servicio del equipo o se puede estimar de acuerdo a otras referencias como la mostrada en el siguiente enlace de la Empresa de Energía de Boyacá - EBSA (2019): https://www.ebsa.com.co/consumo-de-electrodomesticos/
+    p.mb-5 Se denomina calculada porque resulta del cálculo del consumo de electricidad para cada uno de los equipos eléctricos descritos en el cuadro de cargas del lugar. La energía eléctrica se obtiene de la multiplicación de la potencia en vatios (W) de cada equipo por las horas al día de funcionamiento, obteniendo el valor en vatios-hora (Wh) que posteriormente se pueden convertir en unidades de kilovatio-hora (kWh).
+    //: #[a.link-azul(href="https://www.ebsa.com.co/consumo-de-electrodomesticos/" target="_blank") https://www.ebsa.com.co/consumo-de-electrodomesticos/]
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema3/tema3-13.svg', alt='') 
-
-    p.mb-5 De lo anterior se concluye que el consumo diario para este caso es de 6,8 kWh-día, y asumiendo que se consume lo mismo durante los treinta (30) días del mes, el consumo mensual es de 204 kWh-mes.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
+      .col-12.col-md-11.col-lg-10.shadown.p-3
+        p.mb-4 A continuación, se muestra un ejemplo de la demanda de energía eléctrica calculada para una vivienda. La potencia de cada equipo eléctrico se puede obtener observando la placa de datos que viene en cada uno de ellos, también en el manual de servicio del equipo o se puede estimar de acuerdo a otras referencias como la mostrada en el siguiente enlace de la Empresa de Energía de Boyacá - EBSA (2019).
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Ejemplo de demanda de energía eléctrica para una vivienda.</i>
+        .tabla-a.color-acento-contenido.tabla-3
+          table(style="min-width:auto")
+            thead
+              tr.text-center.text-small
+                th(style="width:5%") No.
+                th Descripción
+                th Cantidad
+                th Potencia individual [W]
+                th Horas encendido al día [h]
+                th Energía diaria [Wh]
+            tbody 
+              tr.text-center.text-small
+                td 1
+                td Nevera
+                td 1
+                td 300
+                td 12
+                td 3.600
+              tr.text-center.text-small
+                td 2
+                td Bombillo LED 10W
+                td 5
+                td 10
+                td 8
+                td 400
+              tr.text-center.text-small
+                td 3
+                td Televisor
+                td 2
+                td 80
+                td 5
+                td 800
+              tr.text-center.text-small
+                td 4
+                td Computador de escritorio
+                td 2
+                td 250
+                td 4
+                td 2.000
+              tr.text-small 
+                td(colspan="5") Consumo diario total de energía eléctrica [Wh]
+                td.text-center 6.800
+              tr.text-small 
+                td(colspan="5") Consumo diario total de energía eléctrica en kWh [kWh]
+                td.text-center 6,8
+        p.mb-1.mt-3 De lo anterior se concluye que el consumo diario para este caso es de 6,8 kWh-día, y asumiendo que se consume lo mismo durante los treinta (30) días del mes, el consumo mensual es de 204 kWh-mes.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -211,10 +256,25 @@
 
     p.mb-5 El método de la demanda calculada es utilizado normalmente en aplicaciones muy sencillas. En aplicaciones más complejas donde la elaboración de un cuadro de cargas y un cuadro de cálculo resulta compleja de obtener debido a la gran cantidad de equipos conectados en las instalaciones del usuario interesado en instalar un sistema fotovoltaico, se prefiere utilizar medidores de energía que tengan la capacidad de medir y registrar en una memoria interna los valores de energía eléctrica en cada minuto u hora del día. Normalmente estos medidores se instalan en la acometida eléctrica de entrada y la instalación debe ser lo suficientemente segura para garantizar la seguridad de las personas y de los equipos instalados. Existen medidores con diferentes tecnologías desde los más avanzados llamados analizadores de red hasta los más sencillos medidores monofásicos.
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema3/tema3-14.png', alt='') 
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3(data-aos="fade-right")
+      .col-12.col-md-4
+        p.text-center Analizador portátil avanzado de redes eléctrica marca Fluke.
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-30.png', alt='') 
+      .col-12.col-md-4
+        p.text-center Medidor de energía con registro de datos marca Socomec. 
+        .row.justify-content-center.align-items-center 
+          .col-12.col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-31.png', alt='') 
+      .col-12.col-md-4
+        p.text-center Ejemplo de curva de demanda diaria obtenida por medidor de energía con registro de datos. 
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-32.png', alt='') 
 
     Separador
     #t_3_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -251,23 +311,27 @@
     .row.mb-4.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right") 
         .cajon.color-acento-botones.p-3
-          p Cabe mencionar que se hace como ejercicio didáctico, por lo tanto, algunos detalles de la instalación como planos constructivos, diagramas unifilares eléctricos, puesta a tierra y demás no son tenidos en cuenta. Para los sistemas conectados a red se pueden utilizar algunos de los pasos mostrados a continuación, sin embargo, al ser un tipo de sistema diferente algunos componentes como las baterías no están presentes. Actualmente existen varios métodos para el dimensionamiento de sistemas autónomos que se pueden elegir, para esta ocasión se muestran los pasos a seguir de acuerdo con Bayod (2019):
+          p Cabe mencionar que se hace como ejercicio didáctico, por lo tanto, algunos detalles de la instalación como planos constructivos, diagramas unifilares eléctricos, puesta a tierra y demás no son tenidos en cuenta. Para los sistemas conectados a red se pueden utilizar algunos de los pasos mostrados a continuación, sin embargo, al ser un tipo de sistema diferente algunos componentes como las baterías no están presentes. Actualmente existen varios métodos para el dimensionamiento de sistemas autónomos que se pueden elegir, para esta ocasión se muestran los pasos a seguir de acuerdo con #[em Bayod (2019)]:
       .col-12.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/tema3-17.png', alt='') 
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-5
       .col-12(data-aos="fade-right")
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-play(style="color:#0B428A")
             | #[strong A. Identificación del lugar de instalación y condiciones ambientales. ]
 
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+      .col-12.col-md-3.col-lg-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/tema3-18.svg', alt='') 
+      .col-12.col-md-9.col-lg-10(data-aos="fade-right")
+        p.mb-0 #[b Ubicación del lugar:] Bucaramanga (Santander). Zona rural.
+        p.mb-0 #[b Tipo de usuario:] vivienda unifamiliar donde conviven cuatro personas.
+        p.mb-0 #[b ¿Es posible instalar los paneles en el tejado de la vivienda?] Si.
+        p #[b ¿Hay obstáculos que generen sombras sobre el tejado?] Se asume que no existe la influencia de sombras.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -276,10 +340,70 @@
             i.fas.fa-play(style="color:#0B428A")
             | #[strong B. Determinación de la demanda o consumo de energía diaria.]
 
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema3/tema3-19.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
+      .col-12.col-md-11.col-lg-10.shadown.p-3
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Determinación de la demanda o consumo de energía diaria.</i>
+        .tabla-a.color-acento-contenido.tabla-3
+          table(style="min-width:auto")
+            thead
+              tr.text-center.text-small
+                th(style="width:5%") No.
+                th Descripción
+                th Cantidad
+                th Potencia individual [W]
+                th Horas encendido al día [h]
+                th Energía diaria [Wh]
+            tbody 
+              tr.text-center.text-small
+                td 1
+                td Nevera pequeña
+                td 1
+                td 200
+                td 9
+                td 1.800
+              tr.text-center.text-small
+                td 2
+                td Bombillo LED 5W
+                td 4
+                td 5
+                td 5
+                td 100
+              tr.text-center.text-small
+                td 3
+                td Televisor LED
+                td 1
+                td 100
+                td 4
+                td 400
+              tr.text-center.text-small
+                td 4
+                td Equipo de sonido
+                td 1
+                td 100
+                td 3
+                td 300
+              tr.text-center.text-small
+                td 5
+                td Licuadora
+                td 1
+                td 200
+                td 0,1
+                td 20
+              tr.text-center.text-small
+                td 6
+                td Celulares
+                td 3
+                td 2
+                td 4
+                td 24
+              tr.text-small 
+                td(colspan="5") Consumo diario total de energía eléctrica [Wh]
+                td.text-center 2.644
+              tr.text-small 
+                td(colspan="5") Consumo diario total de energía eléctrica en kWh [kWh]
+                td.text-center 2.644
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -309,7 +433,7 @@
             i.fas.fa-play(style="color:#0B428A")
             | #[strong D. Evaluación de la irradiación global horizontal diaria disponible.]
 
-    p.mb-5 En este paso se debe dirigir a las fuentes de información disponible de tal forma que se pueda encontrar el valor de la irradiación global horizontal disponible en la zona de instalación del sistema fotovoltaico. Para este caso en particular, se utiliza el Mapa nacional multianual de irradiación global horizontal medio diario anual. (página 74 del documento IDEAM, UPME. (2017)) en donde se determina que el valor de la irradiación global para la ciudad de Bucaramanga se encuentra en un rango entre 3,5 y 4 (kWh )/m2. Para garantizar que el diseño esté por encima de las especificaciones, se toma el valor menor del rango. Es decir, para el presente ejercicio se tomará el valor de 3,5  (kWh )/m2 = 3500 (Wh )/m2 Una vez se determina este valor, se procede a calcular las horas solares pico (HSP) de la siguiente manera:
+    p.mb-5 En este paso se debe dirigir a las fuentes de información disponible de tal forma que se pueda encontrar el valor de la irradiación global horizontal disponible en la zona de instalación del sistema fotovoltaico. Para este caso en particular, se utiliza el Mapa nacional multianual de irradiación global horizontal medio diario anual. (página 74 del documento IDEAM, UPME. (2017)) en donde se determina que el valor de la irradiación global para la ciudad de Bucaramanga se encuentra en un rango entre 3,5 y 4 (kWh )/m#[sup 2]. Para garantizar que el diseño esté por encima de las especificaciones, se toma el valor menor del rango. Es decir, para el presente ejercicio se tomará el valor de 3,5  (kWh )/m#[sup 2] = 3500 (Wh )/m#[sup 2] Una vez se determina este valor, se procede a calcular las horas solares pico (HSP) de la siguiente manera:
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
@@ -347,7 +471,7 @@
           .col-md-7.mb-4.mb-md-0
             h4 Días de autonomía (D): 
             p Corresponde al tiempo en días que debe funcionar la instalación fotovoltaica sin recibir radiación solar en las condiciones de diseño. Este valor se determina teniendo en cuenta las condiciones de la instalación como por ejemplo si tiene una planta de energía de respaldo, o si es muy crítico el uso de la energía para esa vivienda o locación. 
-            p Las unidades de la densidad de potencia se expresan en W/m2. Si se desea conocer la densidad de energía 
+            p Las unidades de la densidad de potencia se expresan en W/m#[sup 2]. Si se desea conocer la densidad de energía 
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema3/tema3-23.png', alt='')

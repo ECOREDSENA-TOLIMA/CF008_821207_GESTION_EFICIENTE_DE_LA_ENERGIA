@@ -256,7 +256,7 @@ export default {
         'Es el total de emisiones de gases de efecto invernadero causados por un individuo, organización, lugar o producto, expresado en toneladas de dióxido de carbono equivalente.',
     },
     {
-      termino: 'Plan energético nacional',
+      termino: 'Plan Energético Nacional',
       significado:
         'Documento elaborado por la Unidad de Planeación Minero-Energética donde se presentan algunas ideas sobre el desarrollo futuro del sector energético colombiano y sirven de base para los planes nacionales de expansión y transformación energética.',
     },
