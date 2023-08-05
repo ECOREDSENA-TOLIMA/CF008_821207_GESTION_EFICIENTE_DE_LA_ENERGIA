@@ -15,8 +15,8 @@
         figure
           img(src='@/assets/curso/temas/tema3/tema3-01.png', alt='') 
       .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right") 
-        .cajon.color-acento-contenido.p-3
-          p Una vez se ha detectado el potencial para la generación de energía con fuentes renovables se procede a realizar un análisis más detallado con visitas al sitio y si es posible se realizan mediciones locales, fotografías aéreas y satelitales, levantamientos topográficos, identificación de obstáculos, medios de transporte, entre otros. Una vez sea recopilada esta información, se realiza un proceso llamado diseño en el cual se obtiene generalmente como salida la cantidad de energía generada y los componentes necesarios para la instalación. 
+        .cajon.color-acento-contenido.p-3.mb-3
+          p.mb-0 Una vez se ha detectado el potencial para la generación de energía con fuentes renovables se procede a realizar un análisis más detallado con visitas al sitio y si es posible se realizan mediciones locales, fotografías aéreas y satelitales, levantamientos topográficos, identificación de obstáculos, medios de transporte, entre otros. Una vez sea recopilada esta información, se realiza un proceso llamado diseño en el cual se obtiene generalmente como salida la cantidad de energía generada y los componentes necesarios para la instalación. 
         p Las fases para el dimensionamiento de un sistema de generación con energía renovable varían en su complejidad y tiempo de desarrollo dependiendo de la magnitud de la energía que se pretende generar. 
 
     p.mb-3(data-aos="fade-down-right") En este sentido el proceso de dimensionamiento de energía eléctrica para un hogar residencial puede ser en algunos aspectos diferentes a un sistema de generación para el sistema interconectado nacional.
@@ -34,7 +34,7 @@
         .cajon.color-acento-botones.p-3
           h5 Sistemas Autónomos:
           p Los sistemas fotovoltaicos autónomos están diseñados para cubrir completamente la demanda de electricidad de un lugar durante todo el tiempo, sin necesidad de utilizar una conexión a la red de electricidad convencional suministrada por los comercializadores de energía.
-
+          p Este tipo de sistemas se utiliza principalmente en zonas apartadas o Zonas No Interconectadas (ZNI) donde no existe la posibilidad de tener suministro de electricidad de las redes de energía convencionales.
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right") 
         p También se utilizan en zonas rurales o urbanas donde a pesar de contar con el suministro de la red convencional, la calidad del servicio no es buena debido a cortes inesperados o variaciones perjudiciales de voltaje y el usuario desea tener su propia fuente de electricidad. Otras aplicaciones de los sistemas autónomos son la alimentación de torres de telecomunicaciones en lugares de difícil acceso, bombeo de agua para fincas agrícolas, señalización en vías y carreteras, alumbrado público, entre otras. Este tipo de instalaciones no están tan generalizadas debido al alto coste de las baterías (aproximadamente el 50% del costo del proyecto completo) y su recambio en aproximadamente 4 o 5 años de uso, lo cual hace que el retorno de la inversión se dé en muchos años.
@@ -47,7 +47,7 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-play(style="color:#AD84FF")
-            | #[strong A. Sistemas autónomos:] con el fin de completar la temática anterior, se invita a explorar la siguiente didáctica.
+            | #[strong A. Sistemas autónomos:] con el fin de completar la temática anterior, se invita a explorar la siguiente información.
 
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down-right")
@@ -88,8 +88,6 @@
         h4.text-center Cargas en corriente alterna
         p.text-center Se refiere a todas las cargas que normalmente se utilizan en una vivienda, oficina y en general las que tienen como voltaje de alimentación 110 VAC o 220 VAC para el caso de Colombia.
 
-    p.mb-5(data-aos="fade-down-right") Para observar más detalles del funcionamiento y componentes de los sistemas fotovoltaicos autónomos, se recomienda ver el siguiente video.
-
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
         .tarjeta.color-primario.p-3.mb-5
@@ -99,6 +97,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
+                  p.text-small.mb-0 Para observar más detalles del funcionamiento y componentes de los sistemas fotovoltaicos autónomos, se recomienda ver el siguiente video.
                   p.text-small ¿Cuáles son los Componentes de Sistemas Fotovoltaicos Autónomos?
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9FYhr60VFaU" target="_blank")
@@ -116,7 +115,7 @@
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.col-md-7.mb-5.mb-lg-0(data-aos="fade-right") 
-        p Subsistema de generación: compuesto por los paneles solares y los elementos de instalación y sujeción.
+        p #[b Subsistema de generación:] compuesto por los paneles solares y los elementos de instalación y sujeción.
         p #[strong Inversor:] dispositivo electrónico que se encarga de transformar a corriente alterna el voltaje que en corriente continua se generan en los paneles, para alimentar las cargas a 110 VAC o 220 VAC y también inyectar la energía sobrante a la red convencional. Adicionalmente, el sistema inversor se encarga de gestionar el flujo de energía que viene desde los paneles y el flujo de energía que viene desde la red eléctrica convencional. 
       .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
         figure
@@ -146,8 +145,7 @@
           img(src='@/assets/curso/temas/tema3/tema3-11.png', alt='')
 
     p.mb-3(data-aos="fade-down-right") Otro ejemplo son los edificios de oficinas donde los fines de semana están con una ocupación muy baja, debido a que son días no laborales. Como la energía tiene que fluir de alguna manera, estos excedentes se “inyectan” a la red convencional. En esos momentos el medidor de facturación registrará un consumo de cero, pero también registrará estos excedentes provenientes del lugar. El usuario podrá obtener el beneficio de recibir un abono por parte de la comercializadora de energía quien le reconocerá una tarifa al usuario por la energía inyectada a la red. En Colombia este tipo de transacciones está regulada mediante la resolución CREG 030 de 2018 donde se establecen los parámetros para las actividades de autogeneración a pequeña escala y de generación distribuida en el Sistema Interconectado Nacional.
-    p.mb-3(data-aos="fade-down-right") Es precisamente esta capacidad de inyección a la red la que se aprovecha por parte de los dueños de los grandes parques solares para instalar gran cantidad de potencia en tecnología fotovoltaica con el fin de vender energía con precios más económicos, y con bajas emisiones de gases de efecto invernadero.
-    p.mb-4(data-aos="fade-down-right") Para observar más detalles del funcionamiento y componentes de los sistemas fotovoltaicos conectados a la red, se recomienda ver el siguiente video: 
+    p.mb-4(data-aos="fade-down-right") Es precisamente esta capacidad de inyección a la red la que se aprovecha por parte de los dueños de los grandes parques solares para instalar gran cantidad de potencia en tecnología fotovoltaica con el fin de vender energía con precios más económicos, y con bajas emisiones de gases de efecto invernadero.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -158,6 +156,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
+                  p.text-small.mb-0 Para observar más detalles del funcionamiento y componentes de los sistemas fotovoltaicos conectados a la red, se recomienda ver el siguiente video: 
                   p.text-small Sistema Fotovoltaico Conectado a Red - On Grid
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=8EiwNy0vVFI" target="_blank")
@@ -282,22 +281,23 @@
 
     p.mb-4 Para el análisis de los sistemas fotovoltaicos, existen pérdidas de energía asociadas a la instalación de los paneles y a los obstáculos presentes alrededor de la instalación. En general existen dos tipos de pérdidas asociadas al lugar de la instalación:
 
-    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center.tarjeta.tarjeta--azul.p-3
       .col-12.col-md-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/tema3-15.png', alt='') 
       .col-12.col-md-7.mb-4.mb-lg-0(data-aos="fade-right") 
-        .cajon.color-acento-botones.p-3
-          h4 Pérdidas por sombreamiento
-          p El cálculo de los sombreamientos es muy importante para cuantificar las pérdidas que se pueden tener por este efecto en una instalación. La presencia de sombras, tendrá como consecuencia la disminución de la producción de electricidad. Por lo tanto, para el diseño de los sistemas fotovoltaicos se deben implementar configuraciones de instalación de los paneles solares de tal forma que se evite la influencia de las sombras. 
-          p Para identificar los efectos del sombreamiento producidos por los movimientos del sol y los elementos, se utilizan herramientas como los diagramas estereográficos, los cuales permiten calcular si se va a tener sombras en la instalación, una vez sean conocidos el acimut y la altura del edificio u obstáculo. Normalmente este tipo de pérdidas se calculan vía software o se utilizan tablas específicas para cada país donde se presentan unos factores de pérdidas que se deben aplicar.
+        h4 Pérdidas por sombreamiento
+        p El cálculo de los sombreamientos es muy importante para cuantificar las pérdidas que se pueden tener por este efecto en una instalación. La presencia de sombras, tendrá como consecuencia la disminución de la producción de electricidad. Por lo tanto, para el diseño de los sistemas fotovoltaicos se deben implementar configuraciones de instalación de los paneles solares de tal forma que se evite la influencia de las sombras. 
+        p Para identificar los efectos del sombreamiento producidos por los movimientos del sol y los elementos, se utilizan herramientas como los diagramas estereográficos, los cuales permiten calcular si se va a tener sombras en la instalación, una vez sean conocidos el acimut y la altura del edificio u obstáculo. Normalmente este tipo de pérdidas se calculan vía software o se utilizan tablas específicas para cada país donde se presentan unos factores de pérdidas que se deben aplicar.
+      .col-12
+        p En muchas ocasiones no será posible que la instalación de los paneles solares cumpla con la orientación ni la inclinación más adecuada porque normalmente los paneles solares se instalan sobre superficies o tejados ya construidos y existen cantidad de obstáculos que no permiten obtener los parámetros óptimos. Como consecuencia, la producción de electricidad bajará dependiendo de qué tan alejado estaremos de esos valores óptimos.
+        p Aunque es posible calcular manualmente las pérdidas por orientación e inclinación de los paneles solares en una instalación, normalmente se recurre a herramientas de simulación que permiten observar la producción de electricidad variando la posición de los paneles.
 
-    .row.mb-4.align-self-stretch.justify-content-center.align-items-center
+    .row.mb-4.align-self-stretch.justify-content-center.align-items-center.tarjeta.color-acento-contenido.p-3
       .col-12.col-md-8.mb-4.mb-lg-0(data-aos="fade-right") 
-        .cajon.color-acento-contenido.p-3
-          h4 Pérdidas por inclinación y orientación.
-          p Para obtener el mayor rendimiento energético del panel solar, se debe tener en cuenta la inclinación y la orientación del panel o del arreglo de paneles solares a instalar y dependiendo del país y la zona donde se van a instalar los paneles, las condiciones son diferentes. Otro punto a tener en cuenta es que, si por ejemplo se quiere aprovechar el tejado de una vivienda o de una industria para la instalación, este tejado ya tiene una inclinación que no se puede cambiar. Por lo tanto, en el momento de diseñar el sistema fotovoltaico, se tendrán en cuenta este tipo de detalles para analizar la producción final de electricidad.
-          p Para el caso de Colombia, al estar ubicados cerca de la línea ecuatorial y al no existir estaciones como en otros países, se tiene una gran ventaja porque las condiciones ambientales son muy parecidas durante todo el año. Debido a lo anterior, la orientación óptima para Colombia es instalar los paneles solares hacia el sur geográfico del lugar de instalación. Adicionalmente, la inclinación ideal de los paneles solares en Colombia está entre 10° y 15° con respecto a la línea paralela al suelo. Lo anterior para garantizar que con esa misma inclinación, el panel solar pueda limpiarse de manera fácil. 
+        h4 Pérdidas por inclinación y orientación.
+        p Para obtener el mayor rendimiento energético del panel solar, se debe tener en cuenta la inclinación y la orientación del panel o del arreglo de paneles solares a instalar y dependiendo del país y la zona donde se van a instalar los paneles, las condiciones son diferentes. Otro punto a tener en cuenta es que, si por ejemplo se quiere aprovechar el tejado de una vivienda o de una industria para la instalación, este tejado ya tiene una inclinación que no se puede cambiar. Por lo tanto, en el momento de diseñar el sistema fotovoltaico, se tendrán en cuenta este tipo de detalles para analizar la producción final de electricidad.
+        p Para el caso de Colombia, al estar ubicados cerca de la línea ecuatorial y al no existir estaciones como en otros países, se tiene una gran ventaja porque las condiciones ambientales son muy parecidas durante todo el año. Debido a lo anterior, la orientación óptima para Colombia es instalar los paneles solares hacia el sur geográfico del lugar de instalación. Adicionalmente, la inclinación ideal de los paneles solares en Colombia está entre 10° y 15° con respecto a la línea paralela al suelo. Lo anterior para garantizar que con esa misma inclinación, el panel solar pueda limpiarse de manera fácil. 
       .col-12.col-md-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/tema3-16.png', alt='') 
@@ -452,10 +452,10 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-12.cajon.tarjeta--azul.p-4(data-aos="fade-right")
         p.text-center.mb-0 Np = 1,1*(R/I) / Potencia del panel elegido =1,1 * (1.022,05 W) / 300 W = 3,74 paneles 
-        p.text-center.mb-0 La constante de 1,1 tiene relación a un margen de seguridad de potencia que se sugiere para el cálculo.
+        p.text-center La constante de 1,1 tiene relación a un margen de seguridad de potencia que se sugiere para el cálculo.
         p.text-center.mb-0 Como el valor del Np no es un número entero, se aproxima al valor próximo entero que para este caso es 4 paneles.
-        p.text-center.mb-0 El valor de la potencia pico del sistema completo se calcula multiplicando el número de paneles por la potencia pico de cada panel.
-        p.text-center Potencia_(pico del sistema)=Np * Potencia individual del panel seleccionado = 4*300W = 1200 W_pico
+        p.text-center El valor de la potencia pico del sistema completo se calcula multiplicando el número de paneles por la potencia pico de cada panel.
+        p.text-center Potencia#[sub pico del sistema]=Np * Potencia individual del panel seleccionado = 4*300W = 1200 W#[sub pico].
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -550,7 +550,23 @@
     #t_3_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 3.5 Diseño por Simulación
 
-    p.mb-3 Actualmente existen varias herramientas software para el diseño de los sistemas fotovoltaicos. Este tipo de herramientas son muy útiles debido a la flexibilidad para realizar los cambios del entorno y que adicionalmente integran bases de datos con la información de la climatología del lugar a evaluar. También permiten incluir en la evaluación factores como el análisis de las pérdidas por sombras, inclinación de los paneles, cableado eléctrico, entre otras.
+    p.mb-5 Actualmente existen varias herramientas software para el diseño de los sistemas fotovoltaicos. Este tipo de herramientas son muy útiles debido a la flexibilidad para realizar los cambios del entorno y que adicionalmente integran bases de datos con la información de la climatología del lugar a evaluar. También permiten incluir en la evaluación factores como el análisis de las pérdidas por sombras, inclinación de los paneles, cableado eléctrico, entre otras.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-10.col-lg-10.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small En el siguiente enlace encontrará un video que le permitirá conocer sobre el diseño por simulación. 
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=F5E9YdgdsVE" target="_blank")
+                    span Ver video
+                    i.fas.fa-video
+
     p.mb-4 Las más utilizadas (entre otras) en el mercado actual son las siguientes y para la gran mayoría se debe pagar una licencia para la instalación o una cuota mensual mientras se usa el programa para fines comerciales:
     
     .row.mb-4.align-self-stretch.justify-content-center.align-items-center
@@ -558,16 +574,16 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | PVsyst.
+            | #[i PVsyst.]
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | Helioscope.
+            | #[i Helioscope.]
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | Homer Pro.
+            | #[i Homer Pro.]
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | RET Screen.
+            | #[i RET Screen.]
 
     p.mb-4 A pesar de que cada programa tiene características diferentes, existen unos módulos básicos comunes a cada uno de ellos, aunque con nombres diferentes para cada caso:
 

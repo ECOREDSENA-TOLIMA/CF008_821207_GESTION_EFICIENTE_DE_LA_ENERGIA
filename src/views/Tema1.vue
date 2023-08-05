@@ -136,7 +136,7 @@
                     span Ver video
                     i.fas.fa-video
 
-    p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los medidores de presión de tipo Bourdon: 
+    //- p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los medidores de presión de tipo Bourdon: 
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
       .col-12.p-3.shadown(data-aos="fade-down") 
@@ -144,29 +144,27 @@
           .col-md-6.col-12
             .row
               .col-12
+                p En cuanto a los medidores de presión tipo membrana, estos se utilizan normalmente para la medición de presión en rangos pequeños entre 0 y 0,6 bar,  en la siguiente figura puede observarse el esquema respectivo:
                 .titulo-sexto.color-acento-contenido
-                  p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Esquema de componentes del medidor de presión tipo Bourdon</i>
+                  p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Esquema de componentes del medidor de presión tipo membrana</i>
               .col-md-6.col-12
-                p.text-center Esquema de componentes del medidor de presión tipo Bourdon.
-                figure
-                  img(src='@/assets/curso/temas/tema1/tema1-59.png', alt='') 
-              .col-md-6.col-12
-                p.text-center Fotografía del medidor de presión tipo Bourdon. Fabricante WIKA.
-                figure
-                  img(src='@/assets/curso/temas/tema1/tema1-58.png', alt='') 
-          .col-md-6.col-12
-            .row
-              .col-12
-                .titulo-sexto.color-acento-contenido
-                  p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Esquema de componentes del medidor de presión tipo membrana</i>
-              .col-md-6.col-12
-                p.text-center Esquema de componentes del medidor de presión tipo membrana.
                 figure
                   img(src='@/assets/curso/temas/tema1/tema1-60.png', alt='') 
               .col-md-6.col-12
-                p.text-center Fotografía del medidor de presión tipo membrana. Fabricante WIKA.
                 figure
                   img(src='@/assets/curso/temas/tema1/tema1-61.png', alt='') 
+          .col-md-6.col-12
+            .row
+              .col-12
+                p A continuación, se muestran algunas características de los medidores de presión de tipo Bourdon, que se utilizan normalmente para la medición de presión en rangos entre 0 y 7000 bar: 
+                .titulo-sexto.color-acento-contenido
+                  p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Esquema de componentes del medidor de presión tipo Bourdon</i>
+              .col-md-6.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-59.png', alt='') 
+              .col-md-6.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-58.png', alt='') 
           .col-.col-12
             a.anexo.mb-4(href="https://www.bloginstrumentacion.com/instrumentacion/funcionamiento-de-un-manmetro-mecnico/" target="_blank")
               .anexo__icono
@@ -256,11 +254,16 @@
             i.fas.fa-play(style="color:#25FFFF")
             | #[strong A. Termómetros de vidrio]
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right") 
+    .row.justify-content-center.align-items-center.mb-4.tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right") 
       .col-12.col-md-6
-        .cajon.color-acento-contenido.p-3.py-md-5.mb-2
-          p.text-center.mb-0  Este instrumento se compone de un depósito fabricado en vidrio que contiene en su interior un elemento que al ser expuesto al calor se expande y sube al interior del depósito. Debido a la fragilidad de sus materiales y a la dificultad de lectura en condiciones ambientales industriales, este tipo de termómetros se utilizan normalmente en laboratorios con ambientes controlados. El elemento usado al interior del depósito de vidrio varía dependiendo del rango de medición del proceso que se desea medir. 
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='') 
       .col-12.col-md-6
+        .p-3.py-md-5.mb-2
+          p.mb-0 Este instrumento se compone de un depósito fabricado en vidrio que contiene en su interior un elemento que al ser expuesto al calor se expande y sube al interior del depósito. Debido a la fragilidad de sus materiales y a la dificultad de lectura en condiciones ambientales industriales, este tipo de termómetros se utilizan normalmente en laboratorios con ambientes controlados. El elemento usado al interior del depósito de vidrio varía dependiendo del rango de medición del proceso que se desea medir. 
+    
+    .row.justify-content-center.align-items-center.mb-4.p-3(data-aos="fade-down-right") 
+      .col-12.col-md-10
         .cajon.color-acento-botones.px-3.pt-3.pb-1.mb-2
           p En la siguiente tabla se muestran los elementos más usados para los termómetros de vidrio: 
           .titulo-sexto.color-acento-contenido.mb-1
@@ -285,34 +288,26 @@
                   td Tolueno
                   td - 70°C hasta + 100 °C
 
-    p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los termómetros de vidrio: 
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
-      .col-12.mb-3.mb-lg-0(data-aos="fade-right")
-          p.text-center #[b Termómetros de Vidrio]
+    .row.justify-content-center.align-items-center.mb-4.tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right") 
       .col-12.col-md-6
-        p.text-center Termómetro de vidrio tipo industrial. Fabricante WIKA.
-          figure
-            img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='') 
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-img-a.png', alt='') 
       .col-12.col-md-6
-        p.text-center Termómetro de vidrio tipo exterior. 
-          figure
-            img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='') 
+        .p-3.py-md-5.mb-2
+          p.mb-0 El principio de medición de los termómetros bimetálicos se basa en la diferencia del coeficiente de dilatación existente entre dos metales diferentes (como por ejemplo latón, monel, acero, entre otros) los cuales se encuentran laminados conjuntamente. A este laminado se le denomina láminas bimetálicas y pueden tener formas rectas, curvas, espirales o hélices. La ventaja del termómetro bimetálico es que no posee muchas partes móviles lo cual hace que el mantenimiento de este instrumento sea mínimo y además son económicos.
+    p.mb-5(data-aos="fade-down") En este tipo de termómetros, ante los cambios de temperatura, el muelle se deforma y se produce un efecto de rotación en el indicador conectado al muelle. 
 
-    p.mb-3(data-aos="fade-down") El principio de medición de los termómetros bimetálicos se basa en la diferencia del coeficiente de dilatación existente entre dos metales diferentes (como por ejemplo latón, monel, acero, entre otros) los cuales se encuentran laminados conjuntamente. A este laminado se le denomina láminas bimetálicas y pueden tener formas rectas, curvas, espirales o hélices. La ventaja del termómetro bimetálico es que no posee muchas partes móviles lo cual hace que el mantenimiento de este instrumento sea mínimo y además son económicos.
-    p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características del termómetro Bimetálico:
-
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
-      .col-12.mb-3.mb-lg-0(data-aos="fade-right")
-          p.text-center #[b Termómetro Bimetálico]
-      .col-12.col-md-6.p-3
-        p.text-center Interior de termómetro bimetálico con muelle laminado helicoidal. 
-          figure
-            img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='') 
-      .col-12.col-md-6.p-3
-        p.text-center Termómetro bimetálico con conexión a proceso. Fabricante WIKA.
-          figure
-            img(src='@/assets/curso/temas/tema1/tema1-14.png', alt='')
+    //- .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+    //-   .col-12.mb-3.mb-lg-0(data-aos="fade-right")
+    //-       p.text-center #[b Termómetro Bimetálico]
+    //-   .col-12.col-md-6.p-3
+    //-     p.text-center Interior de termómetro bimetálico con muelle laminado helicoidal. 
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='') 
+    //-   .col-12.col-md-6.p-3
+    //-     p.text-center Termómetro bimetálico con conexión a proceso. Fabricante WIKA.
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema1/tema1-14.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -321,7 +316,20 @@
             i.fas.fa-play(style="color:#25FFFF")
             | #[strong B. Termómetros de principio resistivo (termorresistencias)]
 
-    p.mb-5(data-aos="fade-down") Estos instrumentos de medición de temperatura aprovechan el principio de variación de la resistencia de los elementos cuando son expuestos a cambios en la temperatura. El elemento consiste generalmente de un arrollamiento de un conductor muy fino protegido por un material aislante como la cerámica o el vidrio. Este tipo de sensores o sondas también son llamados RTD por su acrónimo en inglés detector de temperatura de resistencia. Los materiales que se usan normalmente en los sensores de temperatura son el platino y el níquel. La sonda o sensor más utilizado en la industria se denomina Pt-100 y es llamado así porque está fabricado con platino y su característica principal es que el valor de su resistencia eléctrica es de 100 ohmios cuando se somete a una temperatura de 0 °C. 
+    .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
+      .col-12.col-md-6
+        p(data-aos="fade-down") Estos instrumentos de medición de temperatura aprovechan el principio de variación de la resistencia de los elementos cuando son expuestos a cambios en la temperatura. El elemento consiste generalmente de un arrollamiento de un conductor muy fino protegido por un material aislante como la cerámica o el vidrio. Este tipo de sensores o sondas también son llamados RTD por su acrónimo en inglés detector de temperatura de resistencia. 
+        p(data-aos="fade-down") Los materiales que se usan normalmente en los sensores de temperatura son el platino y el níquel. La sonda o sensor más utilizado en la industria se denomina Pt-100 y es llamado así porque está fabricado con platino y su característica principal es que el valor de su resistencia eléctrica es de 100 ohmios cuando se somete a una temperatura de 0 °C. 
+      .col-12.col-md-6
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0.text-small <b>Figura 4. </b> <i>Detalle constructivo de un sensor de temperatura Pt100 </i>
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='') 
+        a.anexo.mb-4(href="https://www.tc-sa.es/images/reference/fig6_4.png" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Nota. Tomado de https://www.tc-sa.es/images/reference/fig6_4.png
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
       .col-12.col-md-5
@@ -347,23 +355,19 @@
                     span Ver video
                     i.fas.fa-video
 
-    p.mb-5(data-aos="fade-down") A continuación, se muestran algunas características de los termómetros de principio resistivo: 
+    p.mb-5(data-aos="fade-down") Algunas características de los termómetros de principio resistivo pueden observarse en la siguiente figura: 
     
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
-      .col-12.mb-3.mb-lg-0(data-aos="fade-right")
-          p.text-center #[b Termoresistencias]
-      .col-12.col-md-6.p-3
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0.text-small <b>Figura 4. </b> <i>Detalle constructivo de un sensor de temperatura Pt100 </i>
-          figure
-            img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='') 
-            figcaption Nota. https://www.tc-sa.es/images/reference/fig6_4.png 
-      .col-12.col-md-6.p-3
+      .col-12.col-md-10.col-lg-8.p-3(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0.text-small <b>Figura 5. </b> <i>Instrumento de medición de temperatura con sensor Pt100. Fabricante Klay instruments </i>
           figure
             img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='')
-            figcaption Nota. https://n9.cl/vqmx1
+          a.anexo.mb-4(href="https://www.klay-instruments.com/images/producten/temperatuur/klay-instruments-temperatuuropnemer-tt-4000-02.png" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p Nota. Tomado de Klay Instruments.
 
     p.mb-5(data-aos="fade-down") En el siguiente cuadro se muestran algunas características de las sondas RTD dependiendo del tipo de metal de construcción:
 
@@ -420,13 +424,21 @@
           .col-md-10.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='') 
-          figcaption Nota. https://www.bloginstrumentacion.com/files/2014/08/termopar_ceramico-838x471.jpg 
+        a.anexo.mb-4.mt-2(href="https://www.bloginstrumentacion.com/files/2014/08/termopar_ceramico-838x471.jpg" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Nota. Tomado de WIKA. (2021).
       .col-12.col-md-6.p-3
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0.text-small <b>Figura 7. </b> <i>Aislamiento conductor en el termopar</i>
           figure
             img(src='@/assets/curso/temas/tema1/tema1-21.png', alt='')
-            figcaption Nota. https://www.tc-sa.es/images/thermocouples/type1_large.png
+          a.anexo.mb-4(href="https://www.tc-sa.es/images/thermocouples/type1_large.png" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p Nota. Tomado de https://www.tc-sa.es/images/thermocouples/type1_large.png
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
       .col-12
@@ -475,7 +487,11 @@
           .col-12.col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/tema1-18.png', alt='')
-          figcaption https://www.tc-sa.es/images/thermocouples/type1_large.png
+          //- a.anexo.mb-4.mt-2(href="https://www.tc-sa.es/images/thermocouples/type1_large.png" target="_blank")
+          //-   .anexo__icono
+          //-     img(src="@/assets/template/icono-link.svg")
+          //-   .anexo__texto
+          //-     p Nota. Tomado de https://www.tc-sa.es/images/thermocouples/type1_large.png
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-10.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -575,7 +591,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/tema1-27.png', alt='')
       .col-md-6.mb-4.mb-md-0
-        p Utiliza un imán al interior del flotador, que sube y baja a través de un eje que posee internamente unos microinterruptores llamados Reed switch que se van cerrando a medida que el flotador pasa por ese punto.
+        p Utiliza un imán al interior del flotador, que sube y baja a través de un eje que posee internamente unos microinterruptores llamados #[i Reed switch] que se van cerrando a medida que el flotador pasa por ese punto.
       .col-12.mt-4
         h5 Estos interruptores 
       .col-md-4
@@ -593,7 +609,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias reed switch: 
+                  p.text-small En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias #[i reed switch]: 
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ujPcgh1JDLc" target="_blank")
                     span Ver video
@@ -873,9 +889,10 @@
       h2 1.7 Calibración de los instrumentos de medición
 
     p.mb-3(data-aos="fade-down") La calibración de los instrumentos de medición es de gran importancia, por esto se invita a navegar por la siguiente didáctica.
-    strong.mb-4(data-aos="fade-down") Calibración de los instrumentos de medición.
     
     .row.align-items-center.justify-content-center.mb-5
+      .col-12
+        p.mb-4.text-center(data-aos="fade-down") #[b Calibración de los instrumentos de medición.]
       .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
         p En la práctica, el valor real de la variable a medir en ningún momento se va a obtener debido a que ningún instrumento de medición tiene la capacidad de medir con un error de cero. Siempre existirá un grado de incertidumbre que puede ser manejado y calculado con la información de las hojas de datos de cada instrumento. 
         p Mientras el instrumento sea más exacto, preciso y con mejor resolución, las mediciones mostradas por el instrumento se aproximan al valor real de la variable física a medir. Debido a que internamente los instrumentos de medición están compuestos de partes mecánicas y electrónicas, con el paso del tiempo y por la exposición a las condiciones ambientales del proceso, este tipo de componentes tienden a perder algunas propiedades lo cual puede en muchas ocasiones producir desviaciones en la exactitud y precisión que tienen de fábrica. 
@@ -886,7 +903,7 @@
     p.mb-5(data-aos="fade-down") Por esta razón, si se desea garantizar que los instrumentos de medición se encuentran en los rangos adecuados de desviación de las mediciones, estos se deben calibrar.
 
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center
-      .col-12.col-md-11.mb-5.mb-lg-0(data-aos="fade-right")
+      .col-12(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-48.png', alt='') 
           
@@ -894,7 +911,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+      .col-12.col-lg-11.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--gris-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -904,7 +921,7 @@
                 .col.mb-3.mb-sm-0
                   p Lo anterior se realiza utilizando unos equipos o instrumentos especiales que se encuentran en laboratorios certificados por los organismos de acreditación (en el caso de Colombia es la ONAC) los cuales tienen valores de precisión, exactitud y otras características mejores que los instrumentos a calibrar, lo cual que permiten utilizarlos como referencias válidas para comparar las medidas del medidor a calibrar. 
 
-      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+      .col-12.col-lg-11.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--gris-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -913,7 +930,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p Las condiciones ambientales al interior de los laboratorios de calibración permiten que se garantice la correcta realización de las mediciones sin afectaciones externas. A los equipos utilizados como referencia para la calibración de los instrumentos de medición se les denomina como “equipo patrón primario”.
-      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+      .col-12.col-lg-11.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--gris-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -922,7 +939,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p Los equipos patrones primarios suelen ser muy costosos a la hora de adquirirlos y también su mantenimiento lo debe hacer personal especializado lo cual resulta también en un valor alto de mantenimiento.
-      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+      .col-12.col-lg-11.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--gris-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -931,7 +948,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p Por tal razón las industrias y demás empresas envían sus equipos de medición a estos laboratorios y pagan por el servicio de calibración. 
-      .col-md-11.col-lg-10.mb-4(data-aos="fade-left")
+      .col-12.col-lg-11.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--gris-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -941,42 +958,77 @@
                 .col.mb-3.mb-sm-0
                   p El servicio de calibración también incluye el ajuste (cuando es posible) o corrección de los errores de acuerdo con la manipulación de algunos elementos que tiene internamente el instrumento para tal fin.
 
-    p.mb-4(data-aos="fade-down") A continuación, se muestran algunos equipos de calibración
+    p.mb-4(data-aos="fade-down") Algunos ejemplos de equipos de calibración, se encuentran a continuación; la figura a. muestra un bloque seco marca WIKA. Utilizado para calibración de instrumentos de medición de temperatura. Mientras que la figura b. se trata de un comprobador de peso muerto marca Fluke. Utilizado para calibración de instrumentos de medición de presión. 
           
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+      .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Equipos de calibración.</i>
       .col-12.col-md-6
-        p.text-center Bloque seco marca WIKA. Utilizado para calibración de instrumentos de medición de temperatura.
         .row.justify-content-center.align-items-center
           .col-12.col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-29.png', alt='') 
+        a.anexo.mb-4.mt-2(href="https://www.wika.co/upload/WIKA_Thumbnails/Product-Detail-Large/PIC_PR_CTD9100_650_de_de_47959.jpg.png" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Nota. Tomado de WIKA. (2021). 
       .col-12.col-md-6
-        p.text-center Comprobador de peso muerto marca Fluke. Utilizado para calibración de instrumentos de medición de presión.
         .row.justify-content-center.align-items-center
           .col-12.col-md-9
             figure
               img(src='@/assets/curso/temas/tema1/tema1-54.png', alt='') 
+        a.anexo.mb-4.mt-2(href="https://us.flukecal.com/sites/default/files/imagecache/product-detail-zoom/sites/flukecal.com/files/assets/products/PCAL-E-DWT-H_single_front_01b_328px_x_220px.jpg" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Nota. Tomado de Fluke. 
 
     p.mb-4(data-aos="fade-down") El resultado del proceso de calibración es un certificado emitido por el laboratorio acreditado para tal fin, donde se muestran los puntos de trabajo del medidor analizado y los valores de la desviación medido.
     p.mb-4(data-aos="fade-down") Los datos básicos que debe contener un certificado de calibración son los siguientes:
 
-    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down-left")
-      LineaTiempoC.color-acento-contenido(text-small)
-        .row.justify-content-center.align-items-center(titulo="Paso 1")
-          .col-md-11.col-11.mb-4.mb-md-0
-            p Valor medido por el equipo patrón.
-        .row.justify-content-center.align-items-center(titulo="Paso 2")
-          .col-md-11.col-11.mb-4.mb-md-0
-            p Valor medido por el instrumento a calibrar.
-        .row.justify-content-center.align-items-center(titulo="Paso 3")
-          .col-md-11.col-11.mb-4.mb-md-0
-            p Diferencia entre el valor medido por el equipo patrón y el medido por el instrumento a calibrar.
-        .row.justify-content-center.align-items-center(titulo="Paso 4")
-          .col-md-11.col-11.mb-4.mb-md-0
-            p Especificación de exactitud.
-        .row.justify-content-center.align-items-center(titulo="Paso 5")
-          .col-md-11.col-11.mb-4.mb-md-0
-            p Identificación del equipo patrón utilizado.
+    //- .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down-left")
+    //-   LineaTiempoC.color-acento-contenido(text-small)
+    //-     .row.justify-content-center.align-items-center(titulo="Paso 1")
+    //-       .col-md-11.col-11.mb-4.mb-md-0
+    //-         p Valor medido por el equipo patrón.
+    //-     .row.justify-content-center.align-items-center(titulo="Paso 2")
+    //-       .col-md-11.col-11.mb-4.mb-md-0
+    //-         p Valor medido por el instrumento a calibrar.
+    //-     .row.justify-content-center.align-items-center(titulo="Paso 3")
+    //-       .col-md-11.col-11.mb-4.mb-md-0
+    //-         p Diferencia entre el valor medido por el equipo patrón y el medido por el instrumento a calibrar.
+    //-     .row.justify-content-center.align-items-center(titulo="Paso 4")
+    //-       .col-md-11.col-11.mb-4.mb-md-0
+    //-         p Especificación de exactitud.
+    //-     .row.justify-content-center.align-items-center(titulo="Paso 5")
+    //-       .col-md-11.col-11.mb-4.mb-md-0
+    //-         p Identificación del equipo patrón utilizado.
+    
+    .cajon.color-acento-botones.p-3.mb-5(data-aos="fade-down-left")
+      .px-4
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            | Valor medido por el equipo patrón.
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            | Valor medido por el instrumento a calibrar.
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            | Diferencia entre el valor medido por el equipo patrón y el medido por el instrumento a calibrar.
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            | Especificación de exactitud.
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            | Identificación del equipo patrón utilizado.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")

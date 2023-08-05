@@ -36,11 +36,13 @@
     td
       background-color: #FFFFFF !important
 
-.shadown
+.shadown,.shadown-white
   -webkit-box-shadow: 3px 5px 5px 3px #c1b6b66b
   -moz-box-shadow: 3px 5px 5px 3px #c1b6b66b
   box-shadow: 3px 5px 5px 3px #c1b6b66b
   border-radius: 1rem
+.shadown-white
+  background-color: $white
 
 table.mini-table * 
     line-height: 0.5
@@ -51,3 +53,18 @@ table.mini-table *
 
 a.link-azul
   color: blue
+
+ol.lista-ol--cuadro
+  .lista-ol--cuadro__vineta
+    span
+      color: $color-secundario
+      font-weight: bold
+
+.color-two
+  background-color: $color-secundario
+  .texto-negro
+    color: $black
+  p
+    color: $white
+  h5
+    color: #25FFFF
