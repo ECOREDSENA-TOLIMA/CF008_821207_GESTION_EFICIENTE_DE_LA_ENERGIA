@@ -235,6 +235,20 @@ export default {
         'https://www.testo.com/es-AR/Certificados+de+calibraci%C3%B3n+de+equipos+patrones/certpat',
     },
     {
+      tema: 'Potencial energético de la energía solar',
+      referencia:
+        'IDEAM. (2016). Atlas de radiación solar, ultravioleta, y ozono de Colombia. Aspectos Teóricos. ',
+      tipo: 'Documento de consulta',
+      link: 'http://atlas.ideam.gov.co/basefiles/5.Aspectos-teoricos.pdf',
+    },
+    {
+      tema: 'Potencial energético de la energía eólica',
+      referencia:
+        'IDEAM, UPME. (2006). 	Atlas de viento y energía eólica de Colombia. ',
+      tipo: 'Documento de consulta',
+      link: 'https://bdigital.upme.gov.co/handle/001/22',
+    },
+    {
       tema: 'Tipología y equipos',
       referencia:
         'CIAE (s,f). ¿Cuáles son los Componentes de Sistemas Fotovoltaicos Autónomos? [Video] YouTube.  ',
@@ -277,7 +291,7 @@ export default {
     {
       referencia:
         'Empresa de Energía de Boyacá - EBSA. (2019). Consumo de Electrodomésticos. ',
-      link: 'https://www.ebsa.com.co/consumo-de-electrodomesticos/',
+      link: 'https://www.ebsa.com.co/sitio/ebsa_sostenible/3/15/12',
     },
     {
       referencia:

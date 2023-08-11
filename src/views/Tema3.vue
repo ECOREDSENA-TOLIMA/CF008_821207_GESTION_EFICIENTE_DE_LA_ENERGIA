@@ -20,7 +20,7 @@
         p Las fases para el dimensionamiento de un sistema de generación con energía renovable varían en su complejidad y tiempo de desarrollo dependiendo de la magnitud de la energía que se pretende generar. 
 
     p.mb-3(data-aos="fade-down-right") En este sentido el proceso de dimensionamiento de energía eléctrica para un hogar residencial puede ser en algunos aspectos diferentes a un sistema de generación para el sistema interconectado nacional.
-    p.mb-5(data-aos="fade-down-right") En este capítulo se mostrarán de manera general los pasos para el dimensionamiento de uno de los sistemas de generación con energía renovable con mayor crecimiento en el país: Los sistemas fotovoltaicos.
+    p.mb-5(data-aos="fade-down-right") En este capítulo se mostrarán de manera general los pasos para el dimensionamiento de uno de los sistemas de generación con energía renovable con mayor crecimiento en el país: los sistemas fotovoltaicos.
 
     Separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -192,13 +192,13 @@
             | #[strong A.Demanda calculada: ]
 
     p.mb-5 Se denomina calculada porque resulta del cálculo del consumo de electricidad para cada uno de los equipos eléctricos descritos en el cuadro de cargas del lugar. La energía eléctrica se obtiene de la multiplicación de la potencia en vatios (W) de cada equipo por las horas al día de funcionamiento, obteniendo el valor en vatios-hora (Wh) que posteriormente se pueden convertir en unidades de kilovatio-hora (kWh).
-    //: #[a.link-azul(href="https://www.ebsa.com.co/consumo-de-electrodomesticos/" target="_blank") https://www.ebsa.com.co/consumo-de-electrodomesticos/]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
       .col-12.col-md-11.col-lg-10.shadown.p-3
-        p.mb-4 A continuación, se muestra un ejemplo de la demanda de energía eléctrica calculada para una vivienda. La potencia de cada equipo eléctrico se puede obtener observando la placa de datos que viene en cada uno de ellos, también en el manual de servicio del equipo o se puede estimar de acuerdo a otras referencias como la mostrada en el siguiente enlace de la Empresa de Energía de Boyacá - EBSA (2019).
+        p.mb-4 A continuación, se muestra un ejemplo de la demanda de energía eléctrica calculada para una vivienda. La potencia de cada equipo eléctrico se puede obtener observando la placa de datos que viene en cada uno de ellos, también en el manual de servicio del equipo o se puede estimar de acuerdo a otras referencias como la mostrada en el siguiente enlace de la Empresa de Energía de Boyacá - EBSA (2019). 
+          | #[a.link-azul(href="https://www.ebsa.com.co/sitio/ebsa_sostenible/3/15/12" target="_blank") https://www.ebsa.com.co/sitio/ebsa_sostenible/3/15/12]
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Ejemplo de demanda de energía eléctrica para una vivienda.</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Ejemplo de demanda de energía eléctrica para una vivienda.</i>
         .tabla-a.color-acento-contenido.tabla-3
           table(style="min-width:auto")
             thead
@@ -344,7 +344,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
       .col-12.col-md-11.col-lg-10.shadown.p-3
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Determinación de la demanda o consumo de energía diaria.</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 7. </b> <i>Determinación de la demanda o consumo de energía diaria.</i>
         .tabla-a.color-acento-contenido.tabla-3
           table(style="min-width:auto")
             thead

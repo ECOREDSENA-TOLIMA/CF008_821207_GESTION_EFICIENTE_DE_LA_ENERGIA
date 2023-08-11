@@ -289,7 +289,7 @@
             | SOLARGIS #[a.link-azul(href="https://solargis.com/" target="_blank") (https://solargis.com/)]. Se debe pagar una suscripción, sin embargo algunos mapas son gratis.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
-            | Meteonorm #[a.link-azul(href="(https://meteonorm.com/en/" target="_blank") (https://meteonorm.com/en/)]. Se debe pagar una suscripción.
+            | Meteonorm #[a.link-azul(href="https://meteonorm.com/en/" target="_blank") (https://meteonorm.com/en/)]. Se debe pagar una suscripción.
           li.mb-0
             i.fas.fa-bolt(style="color:#AD84FF")
             | PVGIS #[a.link-azul(href="https://ec.europa.eu/jrc/en/pvgis" target="_blank") (https://ec.europa.eu/jrc/en/pvgis)]. Es gratuita.
