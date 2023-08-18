@@ -294,6 +294,8 @@
           img(src='@/assets/curso/temas/tema1/tema1-img-a.png', alt='') 
       .col-12.col-md-6
         .p-3.py-md-5.mb-2
+          .mb-0(data-aos="fade-right")
+            p.text-center #[b Termómetro Bimetálico]
           p.mb-0 El principio de medición de los termómetros bimetálicos se basa en la diferencia del coeficiente de dilatación existente entre dos metales diferentes (como por ejemplo latón, monel, acero, entre otros) los cuales se encuentran laminados conjuntamente. A este laminado se le denomina láminas bimetálicas y pueden tener formas rectas, curvas, espirales o hélices. La ventaja del termómetro bimetálico es que no posee muchas partes móviles lo cual hace que el mantenimiento de este instrumento sea mínimo y además son económicos.
     p.mb-5(data-aos="fade-down") En este tipo de termómetros, ante los cambios de temperatura, el muelle se deforma y se produce un efecto de rotación en el indicador conectado al muelle. 
 
