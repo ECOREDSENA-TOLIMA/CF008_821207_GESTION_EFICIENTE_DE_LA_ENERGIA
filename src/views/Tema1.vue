@@ -147,30 +147,36 @@
                 p En cuanto a los medidores de presión tipo membrana, estos se utilizan normalmente para la medición de presión en rangos pequeños entre 0 y 0,6 bar,  en la siguiente figura puede observarse el esquema respectivo:
                 .titulo-sexto.color-acento-contenido
                   p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Esquema de componentes del medidor de presión tipo membrana</i>
-              .col-md-6.col-12
+              .col-12
                 figure
-                  img(src='@/assets/curso/temas/tema1/tema1-60.png', alt='') 
-              .col-md-6.col-12
-                figure
-                  img(src='@/assets/curso/temas/tema1/tema1-61.png', alt='') 
+                  img(src='@/assets/curso/temas/tema1/termometros-03.png', alt='') 
+                  //- .col-md-6.col-12
+              //-   figure
+              //-     img(src='@/assets/curso/temas/tema1/tema1-60.png', alt='') 
+              //- .col-md-6.col-12
+              //-   figure
+              //-     img(src='@/assets/curso/temas/tema1/tema1-61.png', alt='') 
           .col-md-6.col-12
             .row
               .col-12
                 p A continuación, se muestran algunas características de los medidores de presión de tipo Bourdon, que se utilizan normalmente para la medición de presión en rangos entre 0 y 7000 bar: 
                 .titulo-sexto.color-acento-contenido
                   p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Esquema de componentes del medidor de presión tipo Bourdon</i>
-              .col-md-6.col-12
+              .col-12
                 figure
-                  img(src='@/assets/curso/temas/tema1/tema1-59.png', alt='') 
-              .col-md-6.col-12
-                figure
-                  img(src='@/assets/curso/temas/tema1/tema1-58.png', alt='') 
-          .col-.col-12
-            a.anexo.mb-4(href="https://www.bloginstrumentacion.com/instrumentacion/funcionamiento-de-un-manmetro-mecnico/" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p Nota. WIKA. (2021). ¿Cómo funcionan los manómetros mecánicos?. 
+                  img(src='@/assets/curso/temas/tema1/termometros-02.png', alt='') 
+              //- .col-md-6.col-12
+              //-   figure
+              //-     img(src='@/assets/curso/temas/tema1/tema1-59.png', alt='') 
+              //- .col-md-6.col-12
+              //-   figure
+              //-     img(src='@/assets/curso/temas/tema1/tema1-58.png', alt='') 
+          //- .col-.col-12
+          //-   a.anexo.mb-4(href="https://www.bloginstrumentacion.com/instrumentacion/funcionamiento-de-un-manmetro-mecnico/" target="_blank")
+          //-     .anexo__icono
+          //-       img(src="@/assets/template/icono-link.svg")
+          //-     .anexo__texto
+          //-       p Nota. WIKA. (2021). ¿Cómo funcionan los manómetros mecánicos?. 
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12(data-aos="fade-right")
@@ -198,12 +204,12 @@
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Esquema de componentes del medidor de presión tipo electrónico</i>
           figure
-            img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='')
-          a.anexo.mb-4(href="https://www.bloginstrumentacion.com/productos/como-funciona-un-transmisor-de-presion/" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Nota. WIKA. (2021). ¿Cómo funcionan los manómetros mecánicos?. Recuperado el 10 de septiembre de 2021. 
+            img(src='@/assets/curso/temas/tema1/termometros-04.png', alt='')
+          //- a.anexo.mb-4(href="https://www.bloginstrumentacion.com/productos/como-funciona-un-transmisor-de-presion/" target="_blank")
+          //-   .anexo__icono
+          //-     img(src="@/assets/template/icono-link.svg")
+          //-   .anexo__texto
+          //-     p Nota. WIKA. (2021). ¿Cómo funcionan los manómetros mecánicos?. Recuperado el 10 de septiembre de 2021. 
 
 
     Separador
@@ -324,14 +330,14 @@
         p(data-aos="fade-down") Los materiales que se usan normalmente en los sensores de temperatura son el platino y el níquel. La sonda o sensor más utilizado en la industria se denomina Pt-100 y es llamado así porque está fabricado con platino y su característica principal es que el valor de su resistencia eléctrica es de 100 ohmios cuando se somete a una temperatura de 0 °C. 
       .col-12.col-md-6
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0.text-small <b>Figura 4. </b> <i>Detalle constructivo de un sensor de temperatura Pt100 </i>
+          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Detalle constructivo de un sensor de temperatura Pt100.</i>
         figure
           img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='') 
-        a.anexo.mb-4(href="https://www.tc-sa.es/images/reference/fig6_4.png" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p Nota. Tomado de https://www.tc-sa.es/images/reference/fig6_4.png
+        //- a.anexo.mb-4(href="https://www.tc-sa.es/images/reference/fig6_4.png" target="_blank")
+        //-   .anexo__icono
+        //-     img(src="@/assets/template/icono-link.svg")
+        //-   .anexo__texto
+        //-     p Nota. Tomado de https://www.tc-sa.es/images/reference/fig6_4.png
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
       .col-12.col-md-5
@@ -362,14 +368,14 @@
     .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
       .col-12.col-md-10.col-lg-8.p-3(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0.text-small <b>Figura 5. </b> <i>Instrumento de medición de temperatura con sensor Pt100. Fabricante Klay instruments </i>
+            p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Instrumento de medición de temperatura con sensor Pt100.</i>
           figure
             img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='')
-          a.anexo.mb-4(href="https://www.klay-instruments.com/images/producten/temperatuur/klay-instruments-temperatuuropnemer-tt-4000-02.png" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Nota. Tomado de Klay Instruments.
+          //- a.anexo.mb-4(href="https://www.klay-instruments.com/images/producten/temperatuur/klay-instruments-temperatuuropnemer-tt-4000-02.png" target="_blank")
+          //-   .anexo__icono
+          //-     img(src="@/assets/template/icono-link.svg")
+          //-   .anexo__texto
+          //-     p Nota. Tomado de Klay Instruments.
 
     p.mb-5(data-aos="fade-down") En el siguiente cuadro se muestran algunas características de las sondas RTD dependiendo del tipo de metal de construcción:
 
@@ -420,26 +426,24 @@
       .col-12.mb-3.mb-lg-0(data-aos="fade-right")
           p.text-center #[b Termopar]
       .col-12.col-md-6.p-3
-        .row.justify-content-center.align-items-center
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0.text-small <b>Figura 6. </b> <i>Corte transversal de termómetro tipo termopar con bulbo protector cerámico</i>
-          .col-md-10.col-12
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='') 
-        a.anexo.mb-4.mt-2(href="https://www.bloginstrumentacion.com/files/2014/08/termopar_ceramico-838x471.jpg" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p Nota. Tomado de WIKA. (2021).
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0.text-small <b>Figura 6. </b> <i>Corte transversal de termómetro tipo termopar con bulbo protector cerámico</i>
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='') 
+        //- a.anexo.mb-4.mt-2(href="https://www.bloginstrumentacion.com/files/2014/08/termopar_ceramico-838x471.jpg" target="_blank")
+        //-   .anexo__icono
+        //-     img(src="@/assets/template/icono-link.svg")
+        //-   .anexo__texto
+        //-     p Nota. Tomado de WIKA. (2021).
       .col-12.col-md-6.p-3
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0.text-small <b>Figura 7. </b> <i>Aislamiento conductor en el termopar</i>
           figure
             img(src='@/assets/curso/temas/tema1/tema1-21.png', alt='')
-          a.anexo.mb-4(href="https://www.tc-sa.es/images/thermocouples/type1_large.png" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
+          //- a.anexo.mb-4(href="https://www.tc-sa.es/images/thermocouples/type1_large.png" target="_blank")
+          //-   .anexo__icono
+          //-     img(src="@/assets/template/icono-link.svg")
+          //-   .anexo__texto
               p Nota. Tomado de https://www.tc-sa.es/images/thermocouples/type1_large.png
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
@@ -479,16 +483,16 @@
             img(src='@/assets/curso/temas/tema1/tema1-20.svg', alt='')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right") 
-      .col-12.col-md-6
-        .cajon.tarjeta--azul.p-5.mb-2
+      .col-12
+        .cajon.tarjeta--azul.p-3.mb-2
           p De forma similar a los termómetros de principio resistivo, los termopares requieren de un elemento electrónico adicional para detectar el cambio del valor del voltaje generado por el efecto Seebeck y convertirlo a un valor que se puede visualizar en una pantalla o se puede llevar la señal eléctrica a través de conductores eléctricos a un controlador de procesos. Adicionalmente este tipo de sensores se deben proteger con un bulbo de material metálico el cual estará expuesto directamente al proceso, como se observa en la siguiente figura: 
-      .col-12.col-md-6
-        .shadown.p-3.row.justify-content-center.align-items-center
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0.text-small <b>Figura 8. </b> <i>Aislamiento conductor en el termopar</i>
-          .col-12.col-md-7
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-18.png', alt='')
+      //- .col-12.col-md-6
+      //-   .shadown.p-3.row.justify-content-center.align-items-center
+      //-     .titulo-sexto.color-acento-contenido
+      //-       p.titulo.pb-0.mb-0.text-small <b>Figura 8. </b> <i>Aislamiento conductor en el termopar</i>
+      //-     .col-12.col-md-7
+      //-       figure
+      //-         img(src='@/assets/curso/temas/tema1/tema1-18.png', alt='')
           //- a.anexo.mb-4.mt-2(href="https://www.tc-sa.es/images/thermocouples/type1_large.png" target="_blank")
           //-   .anexo__icono
           //-     img(src="@/assets/template/icono-link.svg")
@@ -814,41 +818,42 @@
 
     p.mb-4(data-aos="fade-down") Para el análisis de factibilidad para el uso de la energía eólica como energético primario en un lugar determinado, se debe tener como mínimo la capacidad de medir el valor de la velocidad y la dirección del viento. 
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12(data-aos="fade-right")
-        ul.lista-ul.mb-2
-          li.mb-0
-            i.fas.fa-play(style="color:#25FFFF")
-            | #[strong A. Medición de velocidad]
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-md-6(data-aos="fade-right")
+        .row.justify-content-center.align-items-center.mb-3
+          .col-12(data-aos="fade-right")
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-play(style="color:#25FFFF")
+                | #[strong A. Medición de velocidad]
         p.mb-3(data-aos="fade-down") El instrumento de medición utilizado para este fin se denomina anemómetro y el más utilizado es el anemómetro de rotación, que a subes puede ser de tipo cazoletas o de tipo hélice. Ambos funcionan con el principio en que la velocidad de rotación es proporcional a la velocidad del viento. Dicha rotación puede medirse contando mecánicamente el número de rotaciones por medio de un sensor óptico o a través de un pequeño motor eléctrico que actúa como generador. Los anemómetros de tres cazoletas semicónicas y semiesféricas son los más utilizados, y que permiten medir las componentes horizontales del viento.
-      .col-12.col-md-6(data-aos="fade-right")
-        .row.justify-content-center.align-items-center.shadown.p-3
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0.text-small <b>Figura 9. </b> <i>Anemómetro</i>
-          .col-12.col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-42.png', alt='') 
-
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12(data-aos="fade-right")
-        ul.lista-ul.mb-2
-          li.mb-0
-            i.fas.fa-play(style="color:#25FFFF")
-            | #[strong B. Medición de dirección del viento]
-            
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-md-6(data-aos="fade-right")
+        .row.justify-content-center.align-items-center.mb-3
+          .col-12(data-aos="fade-right")
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-play(style="color:#25FFFF")
+                | #[strong B. Medición de dirección del viento]
         p.mb-3(data-aos="fade-down") El instrumento empleado generalmente para medir la dirección del viento se denomina veleta, el cual consiste en un dispositivo instalado sobre un eje vertical y de giro libre, de tal modo que puede moverse cuando el viento cambia de dirección. En la mayoría de los instrumentos, el movimiento de la veleta está amortiguado para prevenir cambios demasiado rápidos o bruscos de la dirección del viento.
       .col-12.col-md-6(data-aos="fade-right")
-        .row.justify-content-center.align-items-center.shadown.p-3
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0.text-small <b>Figura 10. </b> <i>Imagen real de una veleta</i>
-          .col-12.col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-43.png', alt='') 
+        figure
+          img(src='@/assets/curso/temas/tema1/img-new.png', alt='') 
+        //- .row.justify-content-center.align-items-center.shadown.p-3
+        //-   .titulo-sexto.color-acento-contenido
+        //-     p.titulo.pb-0.mb-0.text-small <b>Figura 9. </b> <i>Anemómetro</i>
+        //-   .col-12.col-md-6
+        //-     figure
+        //-       img(src='@/assets/curso/temas/tema1/tema1-42.png', alt='') 
+
+            
+    //- .row.justify-content-center.align-items-center.mb-3
+    //-   .col-12.col-md-6(data-aos="fade-right")
+    //-     .row.justify-content-center.align-items-center.shadown.p-3
+    //-       .titulo-sexto.color-acento-contenido
+    //-         p.titulo.pb-0.mb-0.text-small <b>Figura 10. </b> <i>Imagen real de una veleta</i>
+    //-       .col-12.col-md-6
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema1/tema1-43.png', alt='') 
 
     Separador
     #t_1_6.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -960,32 +965,39 @@
                 .col.mb-3.mb-sm-0
                   p El servicio de calibración también incluye el ajuste (cuando es posible) o corrección de los errores de acuerdo con la manipulación de algunos elementos que tiene internamente el instrumento para tal fin.
 
-    p.mb-4(data-aos="fade-down") Algunos ejemplos de equipos de calibración, se encuentran a continuación; la figura a. muestra un bloque seco marca WIKA. Utilizado para calibración de instrumentos de medición de temperatura. Mientras que la figura b. se trata de un comprobador de peso muerto marca Fluke. Utilizado para calibración de instrumentos de medición de presión. 
+    //- p.mb-4(data-aos="fade-down") Algunos ejemplos de equipos de calibración, se encuentran a continuación; la figura a. muestra un bloque seco marca WIKA. Utilizado para calibración de instrumentos de medición de temperatura. Mientras que la figura b. se trata de un comprobador de peso muerto marca Fluke. Utilizado para calibración de instrumentos de medición de presión. 
           
-    .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
-      .col-12
-        .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Equipos de calibración.</i>
-      .col-12.col-md-6
-        .row.justify-content-center.align-items-center
-          .col-12.col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-29.png', alt='') 
-        a.anexo.mb-4.mt-2(href="https://www.wika.co/upload/WIKA_Thumbnails/Product-Detail-Large/PIC_PR_CTD9100_650_de_de_47959.jpg.png" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p Nota. Tomado de WIKA. (2021). 
-      .col-12.col-md-6
-        .row.justify-content-center.align-items-center
-          .col-12.col-md-9
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-54.png', alt='') 
-        a.anexo.mb-4.mt-2(href="https://us.flukecal.com/sites/default/files/imagecache/product-detail-zoom/sites/flukecal.com/files/assets/products/PCAL-E-DWT-H_single_front_01b_328px_x_220px.jpg" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p Nota. Tomado de Fluke. 
+    //- .row.mb-5.align-self-stretch.justify-content-center.align-items-center.shadown.p-3
+    //-   .col-12
+    //-     .titulo-sexto.color-acento-contenido
+    //-       p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Equipos de calibración.</i>
+    //-   .col-12.col-md-6
+    //-     .row.justify-content-center.align-items-center
+    //-       .col-12.col-md-6
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema1/tema1-29.png', alt='') 
+    //-     a.anexo.mb-4.mt-2(href="https://www.wika.co/upload/WIKA_Thumbnails/Product-Detail-Large/PIC_PR_CTD9100_650_de_de_47959.jpg.png" target="_blank")
+    //-       .anexo__icono
+    //-         img(src="@/assets/template/icono-link.svg")
+    //-       .anexo__texto
+    //-         p Nota. Tomado de WIKA. (2021). 
+    //-   .col-12.col-md-6
+    //-     .row.justify-content-center.align-items-center
+    //-       .col-12.col-md-9
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema1/tema1-54.png', alt='') 
+    //-     a.anexo.mb-4.mt-2(href="https://us.flukecal.com/sites/default/files/imagecache/product-detail-zoom/sites/flukecal.com/files/assets/products/PCAL-E-DWT-H_single_front_01b_328px_x_220px.jpg" target="_blank")
+    //-       .anexo__icono
+    //-         img(src="@/assets/template/icono-link.svg")
+    //-       .anexo__texto
+    //-         p Nota. Tomado de Fluke. 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-6
+        p Para la calibración de instrumentos de medición de temperatura pueden utilizarse mediante equipos de bloque seco o mediante verificador de peso muerto, este último utilizado para la calibración de instrumentos de medición de presión. El resultado del proceso de calibración es un certificado emitido por el laboratorio acreditado para tal fin, donde se muestran los puntos de trabajo del medidor analizado y los valores de la desviación medido. 
+      .col-md-6
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-54-1.png', alt='')
 
     p.mb-4(data-aos="fade-down") El resultado del proceso de calibración es un certificado emitido por el laboratorio acreditado para tal fin, donde se muestran los puntos de trabajo del medidor analizado y los valores de la desviación medido.
     p.mb-4(data-aos="fade-down") Los datos básicos que debe contener un certificado de calibración son los siguientes:
@@ -1021,15 +1033,15 @@
             | Valor medido por el instrumento a calibrar.
           li 
             .lista-ol--cuadro__vineta
-              span b
+              span c
             | Diferencia entre el valor medido por el equipo patrón y el medido por el instrumento a calibrar.
           li 
             .lista-ol--cuadro__vineta
-              span b
+              span d
             | Especificación de exactitud.
           li 
             .lista-ol--cuadro__vineta
-              span b
+              span e
             | Identificación del equipo patrón utilizado.
 
     .row.justify-content-center.align-items-center.mb-5

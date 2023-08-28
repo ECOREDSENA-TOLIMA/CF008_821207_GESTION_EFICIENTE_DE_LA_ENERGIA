@@ -199,7 +199,7 @@
           img(src='@/assets/curso/temas/tema2/tema2-21.png', alt='')
       .col-12.col-md-8.mb-4.mb-md-0
         .cajon.tarjeta--azul.p-3
-          p #[b Existen dos formas para consultar la documentación del atlas.] Una de ellas es utilizar la herramienta en línea desarrollada por el IDEAM accediendo al siguiente enlace: #[a(href="http://atlas.ideam.gov.co/visorAtlasRadiacion.html" target="_blank") #[b http://atlas.ideam.gov.co/visorAtlasRadiacion.html]] #[b y descargando los mapas y tablas que allí reposan.] 
+          p #[b Existen dos formas para consultar la documentación del atlas.] Una de ellas es utilizar la herramienta en línea desarrollada por el IDEAM accediendo al siguiente enlace: #[a(href="http://atlas.ideam.gov.co/visorAtlasRadiacion.html" target="_blank" style="color:blue") #[b http://atlas.ideam.gov.co/visorAtlasRadiacion.html]] #[b y descargando los mapas y tablas que allí reposan.] 
           .row.justify-content-center.align-items-center
             .col-12.mb-4.mb-md-0(data-aos="fade-left")
               .tarjeta.color-primario.p-3
@@ -303,7 +303,7 @@
       .col-12.col-md-11.mb-5.mb-lg-0.shadown.p-3(data-aos="fade-right")
         p.mb-4(data-aos="fade-down-right") En la siguiente figura se puede observar la pantalla de la base de datos Global Solar Atlas cuando el cursor del mapa de ubica en la ciudad de Barranquilla:
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0.text-small <b>Figura 12. </b> <i>Pantalla de la base de datos Global Solar Atlas</i>
+          p.titulo.pb-0.mb-0.text-small <b>Figura 8. </b> <i>Pantalla de la base de datos Global Solar Atlas</i>
         figure
           img(src='@/assets/curso/temas/tema2/tema2-10.png', alt='') 
           figcaption Imagen de pantalla del resultado de localizar a la ciudad de Barranquilla en la base de datos Global Solar Atlas. Referencia bibliográfica: World Bank Group, ESMAP, SOLARGIS. (2021). Global Solar Atlas. 
