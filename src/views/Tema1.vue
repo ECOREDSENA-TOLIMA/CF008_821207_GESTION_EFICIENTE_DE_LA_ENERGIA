@@ -289,10 +289,10 @@
                   td - 200 °C hasta + 20 °C
                 tr.text-center
                   td Alcohol
-                  td - 110 °C hasta + 50°C
+                  td - 110 °C hasta + 50 °C
                 tr.text-center
                   td Tolueno
-                  td - 70°C hasta + 100 °C
+                  td - 70 °C hasta + 100 °C
 
     .row.justify-content-center.align-items-center.mb-4.tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right") 
       .col-12.col-md-6
@@ -1055,7 +1055,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small En el siguiente enlace, se encuentra el documento ejemplo de un certificado de calibración para un medidor de temperatura: 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_7_Ejemplo_Certificado_de_Calibracion.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_1_7_Ejemplo_Certificado_de_Calibracion.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

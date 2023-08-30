@@ -135,7 +135,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small Para conocer más detalles acerca de los aspectos teóricos del sol y la radiación se debe consultar el material complementario elaborado por el IDEAM (2016): 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_1_1_MC_Teoria Radiacion.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo2_2_1_1_MC_Teoria_Radiacion.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -211,7 +211,7 @@
                       .col.mb-3.mb-sm-0
                         p.text-small En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_1_2_MC_Atlas_Solar_Colombia.pdf')" target="_blank")
+                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo3_2_1_2_MC_Atlas_Solar_Colombia.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
 
@@ -409,7 +409,7 @@
                       .col.mb-3.mb-sm-0
                         p.text-small En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_1_3_MC_Atlas_Eolico_Colombia.pdf')" target="_blank")
+                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo4_2_1_3_MC_Atlas_Eolico_Colombia.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
 
